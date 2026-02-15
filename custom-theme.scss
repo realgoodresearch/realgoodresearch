@@ -1,0 +1,51 @@
+/*-- scss:defaults --*/
+
+// 1. Import your fonts
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;700;900&family=Roboto:wght@300;400;700&display=swap');
+
+// 2. Color Palette from realgoodresearch.com
+$white: #ffffff;
+$light-grey: #f9f9f9;
+$border-color: #eeeeee;
+$text-main: #1a1a1a; // Almost black, but softer
+$accent-blue: #3498db;
+
+// 3. Quarto Variable Overrides
+$body-bg: $white;
+$body-color: $text-main;
+$link-color: $accent-blue;
+$font-family-sans-serif: "Roboto", sans-serif;
+$headings-font-family: "Mulish", sans-serif;
+
+/*-- scss:rules --*/
+
+// Navbar - matching the clean white look
+.navbar {
+    padding: 1rem 0;
+    border-bottom: 1px solid $border-color !important;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+}
+
+// Titles - Heavy Mulish for that "Real Good" brand feel
+h1.title,
+h1,
+h2 {
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    color: #000;
+}
+
+// Sidebars - removing the "box" look for a clean list
+#quarto-margin-sidebar,
+.quarto-secondary-nav {
+    background: $white;
+    border: none;
+}
+
+// Cards - matching the subtle shadow on your site
+.card {
+    border: 1px solid $border-color;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+}

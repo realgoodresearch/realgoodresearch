@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Real Good Docs"
+  search: true
+  navbar:
+    background: white 
+    border: true
+    left:
+      - href: https://github.com/realgoodresearch
+        target: _blank
+        text: Source Code
+    right:
+      - href: https://realgoodresearch.com
+        target: _blank
+        text: Real Good Research
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - custom-theme.scss
+    toc: true
+    number-sections: false
+
+page-footer:
+    background: white
+    border: true
+    content: _footer.html
