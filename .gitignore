@@ -1,5 +1,6 @@
 /.quarto/
 /docs/
+/_site/
 
 .Rhistory
 .RData

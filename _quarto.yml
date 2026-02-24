@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: docs
 
 website:
   title: "Real Good Docs"
@@ -43,6 +42,5 @@ format:
     bibliography: references.bib
 
 execute:
-  freeze:
-    true
+  freeze: true
 
