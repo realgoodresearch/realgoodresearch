@@ -1,0 +1,48 @@
+[
+  {
+    "objectID": "teaching/bayesian_intro/synthetic_controls.html",
+    "href": "teaching/bayesian_intro/synthetic_controls.html",
+    "title": "Synthetic Controls",
+    "section": "",
+    "text": "Imagine an alternative reality in which Russia’s large scale invasion of Ukraine never happened. Or where the British referendum vote had rejected Brexit. Would global migration patterns look different in these alternative realities?\nIn this exercise, we will learn how to develop Bayesian synthetic control models to infer these alternative scenarios and compare the alternative migration patterns to observed migration to asses the “treatment effects” of these world events. We will be using Meta’s global migration dataset which contains monthly international flows of migrants estimated based where people connect to Facebook and Instagram (Chi et al. 2025).\n\n\n\n\nChi, Guanghua, Guy J Abel, Drew Johnston, Eugenia Giraudy, and Mike Bailey. 2025. “Measuring Global Migration Flows Using Online Data.” Proceedings of the National Academy of Sciences 122 (18): e2409418122. https://doi.org/10.1073/pnas.2409418122.",
+    "crumbs": [
+      "GitHub",
+      "Teaching",
+      "Bayesian Intro",
+      "Synthetic Controls"
+    ]
+  },
+  {
+    "objectID": "teaching/bayesian_intro/synthetic_controls.html#references",
+    "href": "teaching/bayesian_intro/synthetic_controls.html#references",
+    "title": "Synthetic Controls",
+    "section": "",
+    "text": "Chi, Guanghua, Guy J Abel, Drew Johnston, Eugenia Giraudy, and Mike Bailey. 2025. “Measuring Global Migration Flows Using Online Data.” Proceedings of the National Academy of Sciences 122 (18): e2409418122. https://doi.org/10.1073/pnas.2409418122.",
+    "crumbs": [
+      "GitHub",
+      "Teaching",
+      "Bayesian Intro",
+      "Synthetic Controls"
+    ]
+  },
+  {
+    "objectID": "teaching/bayesian_intro/getting_started.html",
+    "href": "teaching/bayesian_intro/getting_started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Introduction\nWelcome to the world of Bayesian statistics!\nThe tutorials included in this Bayesian Intro will provide hands-on experience with Bayesian modelling using free and open source software–Stan and R. We use Stan because it is fast, flexible, very well documented, and supported by an active community of developers and users (see Reading section).\n\n\nSoftware\nBefore we get started, let’s make sure that you have the right software installed on your computer. If you want to skip the installation and simply read along with the exercises, you can go ahead to the next section(s) now. When you’re ready to run code on your own computer, just come back to this page to find links to the required software.\nYou will need the following software to be able to run the example code on your own computer:\n\nR and RStudio or Positron (or your favourite R IDE)\n\nCmdStanR and its dependencies\n\n\n\nReading\n\nBayesian Statistics\n\nStatistical Rethinking Lectures (and book) by Richard McElreath\n\nBayes Rules! by Johnson, Ott, and Dogucu.\n\n\n\nStan Software\n\nIntroductory Stan tutorials, videos, and podcasts\n\nStan Documentation\n\nStan User Forums\n\nStan Case Studies\n\nStan website (collects all of the above together, with some deeper-dive materials as well)\n\n\n\nBooks\n\nGelman A, Carlin JB, Stern HS, Dunson DB, Vehtari A, Rubin D. 2013. Bayesian Data Analysis. Chapman & Hall/CRC Texts in Statistical Science. https://sites.stat.columbia.edu/gelman/book/BDA3.pdf\n\nMcElreath R. 2015. Statistical Rethinking: A Bayesian course with examples in R and Stan. Chapman & Hall/CRC Texts in Statistical Science. https://civil.colorado.edu/~balajir/CVEN6833/bayes-resources/RM-StatRethink-Bayes.pdf\n\nLambert B. A student’s guide to Bayesian statistics. Sage. https://study.sagepub.com/lambert.\n\nHobbs NT, Hooten MB. 2015. Bayesian Models: A statistical primer for ecologists. Princeton University Press. Request full text pdf from authors via ResearchGate: https://www.researchgate.net/publication/283813602_Bayesian_Models_A_Statistical_Primer_for_Ecologists.",
+    "crumbs": [
+      "GitHub",
+      "Teaching",
+      "Bayesian Intro",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Real Good Docs",
+    "section": "",
+    "text": "These docs help you dive deeper into innovative data and methods that we use across our projects."
+  }
+]
