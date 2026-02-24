@@ -5,27 +5,44 @@ project:
 website:
   title: "Real Good Docs"
   search: true
+
   navbar:
     background: white 
     border: true
-    left:
+    right:
       - href: https://github.com/realgoodresearch
         target: _blank
-        text: Source Code
-    right:
+        text: GitHub
       - href: https://realgoodresearch.com
         target: _blank
         text: Real Good Research
+
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - section: "Teaching"
+        contents: 
+          - teaching/overview.qmd
+          - section: "Bayesian Intro"
+            contents:
+              - teaching/bayesian_intro/getting_started.qmd
+              - teaching/bayesian_intro/synthetic_controls.qmd
+      - section: "Research"
+        contents: 
+          - research/overview.qmd
 
 format:
   html:
     theme: 
       - cosmo
       - custom-theme.scss
+    include-after-body: _footer.html
     toc: true
     number-sections: false
+    bibliography: references.bib
 
-page-footer:
-    background: white
-    border: true
-    content: _footer.html
+execute:
+  freeze:
+    true
+

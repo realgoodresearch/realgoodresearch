@@ -1,0 +1,15 @@
+---
+title: "Synthetic Controls"
+subtitle: "Assess treatment effects by comparing real history to an alternative reality without the treatment."
+author: "Doug Leasure"
+---
+
+# Introduction
+
+Imagine an alternative reality in which Russia's large scale invasion of Ukraine never happened. Or where the British referendum vote had rejected Brexit. Would global migration patterns look different in these alternative realities?  
+
+In this exercise, we will learn how to develop Bayesian synthetic control models to infer these alternative scenarios and compare the alternative migration patterns to observed migration to asses the "treatment effects" of these world events. We will be using Meta's global migration dataset which contains monthly international flows of migrants estimated based where people connect to Facebook and Instagram [@chi2025measuring].
+
+## References
+::: {#refs}
+:::

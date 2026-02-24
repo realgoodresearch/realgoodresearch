@@ -4,6 +4,7 @@ subtitle: "Innovations and discoveries behind Real Good Research."
 ---
 
 ::: {.inset-center}
-These docs brings you inside our research journey to dive deeper into innovative data and methods that we use across our projects.
+These docs help you dive deeper into innovative data and methods that we use across our projects.
+
 :::
 
