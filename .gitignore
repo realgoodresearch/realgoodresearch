@@ -1,1 +1,17 @@
 /.quarto/
+/docs/
+
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user
+*.Rproj
+
+*.rds 
+*.RData
+*.pkl
+*.nc
+*.model
+
+.DS_Store
+Thumbds.db
