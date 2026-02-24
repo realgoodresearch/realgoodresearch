@@ -4,11 +4,17 @@ on:
   push:
     branches: [ main ]
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pages: write
+      id-token: write
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -16,19 +22,9 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render Quarto Project
-        run: |
-          quarto render
-
-      - name: Post-Render Cleanup
-        run: |
-          # Force the CNAME back in case Quarto wiped the folder
-          echo "docs.realgoodresearch.com" > docs/CNAME
-          # Ensure GitHub doesn't try to run Jekyll
-          touch docs/.nojekyll
-
-      - name: Commit and Push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          commit_message: "Auto-render Quarto site [skip ci]"
-          file_pattern: 'docs/*'
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
