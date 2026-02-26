@@ -3,10 +3,12 @@ project:
 
 website:
   title: "Real Good Docs"
+  page-navigation: true
   search: true
 
   navbar:
-    background: white 
+    background: black
+    type: dark 
     border: true
     right:
       - href: https://github.com/realgoodresearch
@@ -19,17 +21,33 @@ website:
   sidebar:
     style: docked
     search: true
+    collapse-level: 2
     contents:
+
       - section: "Teaching"
+        href: teaching/index.qmd
         contents: 
-          - teaching/overview.qmd
+
           - section: "Bayesian Intro"
+            href: teaching/bayesian_intro/index.qmd
             contents:
               - teaching/bayesian_intro/getting_started.qmd
-              - teaching/bayesian_intro/synthetic_controls.qmd
-      - section: "Research"
-        contents: 
-          - research/overview.qmd
+              # - teaching/bayesian_intro/model_of_the_mean.qmd
+              # - teaching/bayesian_intro/likelihood_prior_posterior.qmd
+              # - teaching/bayesian_intro/linear_regression.qmd
+              # - teaching/bayesian_intro/cross_validation.qmd
+              # - teaching/bayesian_intro/synthetic_controls.qmd
+
+      # - section: "Research"
+      #   href: research/index.qmd
+        
+      #   contents:
+      #     - section: "Gaza NowPop"
+      #       href: research/gaza_nowpop/index.qmd
+      #       contents:
+      #         - research/gaza_nowpop/social_media.qmd
+      #         - research/gaza_nowpop/polio_vaccination.qmd
+      #         - research/gaza_nowpop/telecommunications.qmd
 
 format:
   html:

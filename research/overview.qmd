@@ -1,4 +1,0 @@
----
-title: "Overview"
-subtitle: "Research reporting from our most impactful projects."
----

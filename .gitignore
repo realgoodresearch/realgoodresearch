@@ -1,6 +1,12 @@
 /.quarto/
 /docs/
 /_site/
+/wd/
+*_cache/
+*_files/
+site_libs/
+
+quarto_clean.sh
 
 .Rhistory
 .RData

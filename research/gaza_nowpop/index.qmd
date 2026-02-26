@@ -1,0 +1,4 @@
+---
+title: "Gaza NowPop"
+subtitle: "Population nowcasting in the Gaza strip to support targeted humanitarian response."
+---

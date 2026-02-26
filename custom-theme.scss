@@ -1,33 +1,60 @@
 /*-- scss:defaults --*/
 
-// 1. Import your fonts
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;700;900&family=Roboto:wght@300;400;700&display=swap');
 
-// 2. Color Palette from realgoodresearch.com
 $white: #ffffff;
+$black: #000000;
 $light-grey: #f9f9f9;
 $border-color: #eeeeee;
-$text-main: #1a1a1a; // Almost black, but softer
+$text-main: #1a1a1a;
 $accent-blue: #3498db;
 
-// 3. Quarto Variable Overrides
+// Quarto Variable Overrides
 $body-bg: $white;
 $body-color: $text-main;
 $link-color: $accent-blue;
 $font-family-sans-serif: "Roboto", sans-serif;
 $headings-font-family: "Mulish", sans-serif;
 
+// Navbar Overrides for Black Background
+$navbar-bg: $black;
+$navbar-fg: $white;
+$navbar-hl: $accent-blue;
+
 /*-- scss:rules --*/
 
-// Navbar - matching the clean white look
+// Fixed Footer Styling
+.custom-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95); // Slight transparency
+    backdrop-filter: blur(5px); // Modern glass effect
+    border-top: 1px solid $border-color;
+    z-index: 1050;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    padding: 12px 40px;
+}
+
+// Ensure content doesn't get cut off by the fixed footer
+body {
+    padding-bottom: 70px;
+}
+
+// Navbar - Modernized for the black background
 .navbar {
-    padding: 1rem 0;
-    border-bottom: 1px solid $border-color !important;
+    padding: 0.8rem 0;
     font-family: "Mulish", sans-serif;
     font-weight: 700;
 }
 
-// Titles - Heavy Mulish for that "Real Good" brand feel
+// Titles
 h1.title,
 h1,
 h2 {
@@ -36,16 +63,25 @@ h2 {
     color: #000;
 }
 
-// Sidebars - removing the "box" look for a clean list
+// Sidebars
 #quarto-margin-sidebar,
 .quarto-secondary-nav {
     background: $white;
     border: none;
+    padding-bottom: 70px; // Prevent sidebar content from hiding behind footer
 }
 
-// Cards - matching the subtle shadow on your site
+// Cards
 .card {
     border: 1px solid $border-color;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
     border-radius: 4px;
+}
+
+.shaded-box {
+    background-color: $light-grey;
+    border-left: 5px solid $accent-blue;
+    padding: 1.5em;
+    border-radius: 4px;
+    margin: 1em 0;
 }
