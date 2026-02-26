@@ -1,0 +1,9 @@
+---
+title: "Table of Contents"
+listing: 
+    type: grid
+    contents:
+        - overview.qmd
+        - getting_started.qmd
+        - synthetic_controls.qmd
+---

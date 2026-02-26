@@ -17,37 +17,29 @@ website:
       - href: https://realgoodresearch.com
         target: _blank
         text: Real Good Research
-
-  sidebar:
-    style: docked
-    search: true
-    collapse-level: 2
-    contents:
-
-      - section: "Teaching"
+    left:
+      - text: "Teaching"
         href: teaching/index.qmd
-        contents: 
-
-          - section: "Bayesian Intro"
-            href: teaching/bayesian_intro/index.qmd
-            contents:
-              - teaching/bayesian_intro/getting_started.qmd
-              # - teaching/bayesian_intro/model_of_the_mean.qmd
-              # - teaching/bayesian_intro/likelihood_prior_posterior.qmd
-              # - teaching/bayesian_intro/linear_regression.qmd
-              # - teaching/bayesian_intro/cross_validation.qmd
-              # - teaching/bayesian_intro/synthetic_controls.qmd
-
-      # - section: "Research"
-      #   href: research/index.qmd
-        
-      #   contents:
-      #     - section: "Gaza NowPop"
-      #       href: research/gaza_nowpop/index.qmd
-      #       contents:
-      #         - research/gaza_nowpop/social_media.qmd
-      #         - research/gaza_nowpop/polio_vaccination.qmd
-      #         - research/gaza_nowpop/telecommunications.qmd
+      - text: "Research"
+        href: research/index.qmd
+  
+  sidebar: 
+    - id: bayesian-intro-sidebar
+      title: "Bayesian Intro"
+      path: teaching/bayesian_intro/
+      contents: 
+        - text: "Welcome"
+          href: teaching/bayesian_intro/overview.qmd
+        - text: "Table of Contents"
+          href: teaching/bayesian_intro/toc.qmd
+        - text: "Getting Started" 
+          href: teaching/bayesian_intro/getting_started.qmd
+        - section: "The Basics"
+          contents: []
+        - section: "Going Further"
+          contents:
+          - text: "Synthetic Controls"
+            href: teaching/bayesian_intro/synthetic_controls.qmd
 
 format:
   html:
