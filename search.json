@@ -1,36 +1,10 @@
 [
   {
-    "objectID": "teaching/bayesian_intro/synthetic_controls.html",
-    "href": "teaching/bayesian_intro/synthetic_controls.html",
-    "title": "Synthetic Controls",
-    "section": "",
-    "text": "Imagine an alternative reality in which Russia’s large scale invasion of Ukraine never happened. Or where the British referendum vote had rejected Brexit. Would global migration patterns look different in these alternative realities?\nIn this exercise, we will learn how to develop Bayesian synthetic control models to infer these alternative scenarios and compare the alternative migration patterns to observed migration to asses the “treatment effects” of these world events. We will be using Meta’s global migration dataset which contains monthly international flows of migrants estimated based where people connect to Facebook and Instagram (Chi et al. 2025).\n\n\n\n\nChi, Guanghua, Guy J Abel, Drew Johnston, Eugenia Giraudy, and Mike Bailey. 2025. “Measuring Global Migration Flows Using Online Data.” Proceedings of the National Academy of Sciences 122 (18): e2409418122. https://doi.org/10.1073/pnas.2409418122.",
-    "crumbs": [
-      "GitHub",
-      "Teaching",
-      "Bayesian Intro",
-      "Synthetic Controls"
-    ]
-  },
-  {
-    "objectID": "teaching/bayesian_intro/synthetic_controls.html#references",
-    "href": "teaching/bayesian_intro/synthetic_controls.html#references",
-    "title": "Synthetic Controls",
-    "section": "",
-    "text": "Chi, Guanghua, Guy J Abel, Drew Johnston, Eugenia Giraudy, and Mike Bailey. 2025. “Measuring Global Migration Flows Using Online Data.” Proceedings of the National Academy of Sciences 122 (18): e2409418122. https://doi.org/10.1073/pnas.2409418122.",
-    "crumbs": [
-      "GitHub",
-      "Teaching",
-      "Bayesian Intro",
-      "Synthetic Controls"
-    ]
-  },
-  {
     "objectID": "teaching/bayesian_intro/getting_started.html",
     "href": "teaching/bayesian_intro/getting_started.html",
     "title": "Getting Started",
     "section": "",
-    "text": "Introduction\nWelcome to the world of Bayesian statistics!\nThe tutorials included in this Bayesian Intro will provide hands-on experience with Bayesian modelling using free and open source software–Stan and R. We use Stan because it is fast, flexible, very well documented, and supported by an active community of developers and users (see Reading section).\n\n\nSoftware\nBefore we get started, let’s make sure that you have the right software installed on your computer. If you want to skip the installation and simply read along with the exercises, you can go ahead to the next section(s) now. When you’re ready to run code on your own computer, just come back to this page to find links to the required software.\nYou will need the following software to be able to run the example code on your own computer:\n\nR and RStudio or Positron (or your favourite R IDE)\n\nCmdStanR and its dependencies\n\n\n\nReading\n\nBayesian Statistics\n\nStatistical Rethinking Lectures (and book) by Richard McElreath\n\nBayes Rules! by Johnson, Ott, and Dogucu.\n\n\n\nStan Software\n\nIntroductory Stan tutorials, videos, and podcasts\n\nStan Documentation\n\nStan User Forums\n\nStan Case Studies\n\nStan website (collects all of the above together, with some deeper-dive materials as well)\n\n\n\nBooks\n\nGelman A, Carlin JB, Stern HS, Dunson DB, Vehtari A, Rubin D. 2013. Bayesian Data Analysis. Chapman & Hall/CRC Texts in Statistical Science. https://sites.stat.columbia.edu/gelman/book/BDA3.pdf\n\nMcElreath R. 2015. Statistical Rethinking: A Bayesian course with examples in R and Stan. Chapman & Hall/CRC Texts in Statistical Science. https://civil.colorado.edu/~balajir/CVEN6833/bayes-resources/RM-StatRethink-Bayes.pdf\n\nLambert B. A student’s guide to Bayesian statistics. Sage. https://study.sagepub.com/lambert.\n\nHobbs NT, Hooten MB. 2015. Bayesian Models: A statistical primer for ecologists. Princeton University Press. Request full text pdf from authors via ResearchGate: https://www.researchgate.net/publication/283813602_Bayesian_Models_A_Statistical_Primer_for_Ecologists.",
+    "text": "The tutorials included in this Bayesian Intro will provide hands-on experience with Bayesian modelling using free and open source software–Stan and R. We use Stan because it is fast, flexible, very well documented, and supported by an active community of developers and users (see Reading section). Note that we use R, but Stan also has support for Python, Julia, MATLAB, and command line interfaces, among others (see Stan Toolkit).",
     "crumbs": [
       "GitHub",
       "Teaching",
@@ -39,10 +13,62 @@
     ]
   },
   {
+    "objectID": "teaching/bayesian_intro/getting_started.html#software",
+    "href": "teaching/bayesian_intro/getting_started.html#software",
+    "title": "Getting Started",
+    "section": "Software",
+    "text": "Software\nBefore we get started, let’s make sure that you have the right software installed on your computer. If you want to skip the installation and simply read along with the exercises, you can go ahead to the next section(s) now. When you’re ready to run code on your own computer, just come back to this page to find links to the required software.\nYou will need the following software to be able to run the example code on your own computer:\n\nR and RStudio or Positron (or your favourite R IDE)\n\nGetting Started with CmdStanR. (Note: Be sure to complete the Introduction and Installing CmdStan sections).",
+    "crumbs": [
+      "GitHub",
+      "Teaching",
+      "Bayesian Intro",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "teaching/bayesian_intro/getting_started.html#sec-reading",
+    "href": "teaching/bayesian_intro/getting_started.html#sec-reading",
+    "title": "Getting Started",
+    "section": "Reading",
+    "text": "Reading\n\nBayesian Statistics\n\nStatistical Rethinking Lectures (and book) by Richard McElreath\n\nBayes Rules! by Johnson, Ott, and Dogucu.\n\n\n\nStan Software\n\nIntroductory Stan tutorials, videos, and podcasts\n\nStan Documentation\n\nStan User Forums\n\nStan Case Studies\n\nStan website (collects all of the above together, with some deeper-dive materials as well)\n\nStan Toolkit\n\n\n\nBooks\n\nGelman A, Carlin JB, Stern HS, Dunson DB, Vehtari A, Rubin D. 2015. Bayesian Data Analysis. Chapman & Hall/CRC Texts in Statistical Science. https://sites.stat.columbia.edu/gelman/book/BDA3.pdf\n\nMcElreath R. 2015. Statistical Rethinking: A Bayesian course with examples in R and Stan. Chapman & Hall/CRC Texts in Statistical Science. https://civil.colorado.edu/~balajir/CVEN6833/bayes-resources/RM-StatRethink-Bayes.pdf\n\nLambert B. A student’s guide to Bayesian statistics. Sage. https://study.sagepub.com/lambert.\n\nHobbs NT, Hooten MB. 2015. Bayesian Models: A statistical primer for ecologists. Princeton University Press. Request full text pdf from authors via ResearchGate: https://www.researchgate.net/publication/283813602_Bayesian_Models_A_Statistical_Primer_for_Ecologists.",
+    "crumbs": [
+      "GitHub",
+      "Teaching",
+      "Bayesian Intro",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "teaching/bayesian_intro/index.html",
+    "href": "teaching/bayesian_intro/index.html",
+    "title": "Bayesian Intro",
+    "section": "",
+    "text": "Welcome to the world of Bayesian statistics!\nThis collection of tutorials was developed for workshops on Bayesian statistics at the Max Planck Institute for Demographic Research and the British Grand Union Doctoral Training Partnership with courses delivered at the London School of Economics and the University of Oxford. We decided to put the material online for everyone to access and to continue developing new material as we think of interesting topics to explore with students.\nThis is our original course advert:\n\nThis two-day course provides a practical and accessible introduction to Bayesian statistics for applied research in any field. Students will benefit from a combination of lectures and discussion to explore fundamental concepts unlocking the potential to design bespoke statistical analyses based on your data and hypotheses as well as practical exercises to gain hands-on experience implementing Bayesian models using free and open-source software. The course is designed as a springboard to overcome the steepest part of the Bayesian learning curve with an immersive two-day deep-dive.\nStudents can expect to gain a working understanding of Bayes theorem (i.e. likelihoods, priors, and posterior probability distributions) and implementation of Markov Chain Monte Carlo for Bayesian model fitting. The course will cover common probability distributions and the know-how to choose between them when designing bespoke models as well as a solid foundation in model validation techniques for high quality research. These concepts will be reinforced through practical lab exercises to gain experience implementing Bayesian models using R and Stan software. Students will be challenged through interactive group discussions to formalise their own mental models (i.e. hypotheses) into bespoke statistical models that can be used to confront these models with data.",
+    "crumbs": [
+      "GitHub",
+      "Teaching",
+      "Bayesian Intro"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Real Good Docs",
     "section": "",
     "text": "These docs help you dive deeper into innovative data and methods that we use across our projects."
+  },
+  {
+    "objectID": "teaching/bayesian_intro/synthetic_controls.html",
+    "href": "teaching/bayesian_intro/synthetic_controls.html",
+    "title": "Synthetic Controls",
+    "section": "",
+    "text": "Imagine an alternative reality in which Russia’s large scale invasion of Ukraine never happened. Or where the British referendum vote had rejected Brexit. Would global migration patterns look different in these alternative realities?\nIn this exercise, we will learn how to develop Bayesian synthetic control models to infer these alternative scenarios and compare the alternative migration patterns to observed migration to asses the “treatment effects” of these world events. We will be using Meta’s global migration dataset which contains monthly international flows of migrants estimated based where people connect to Facebook and Instagram (Chi et al. 2025).\n\n\n\n\nChi, Guanghua, Guy J Abel, Drew Johnston, Eugenia Giraudy, and Mike Bailey. 2025. “Measuring Global Migration Flows Using Online Data.” Proceedings of the National Academy of Sciences 122 (18): e2409418122. https://doi.org/10.1073/pnas.2409418122."
+  },
+  {
+    "objectID": "teaching/bayesian_intro/synthetic_controls.html#references",
+    "href": "teaching/bayesian_intro/synthetic_controls.html#references",
+    "title": "Synthetic Controls",
+    "section": "",
+    "text": "Chi, Guanghua, Guy J Abel, Drew Johnston, Eugenia Giraudy, and Mike Bailey. 2025. “Measuring Global Migration Flows Using Online Data.” Proceedings of the National Academy of Sciences 122 (18): e2409418122. https://doi.org/10.1073/pnas.2409418122."
   }
 ]
