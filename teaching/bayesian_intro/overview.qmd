@@ -1,7 +1,11 @@
 ---
 title: "Bayesian Intro"
 subtitle: "An introduction to Bayesian statistics for applied research."
+image: "resources/bayesian-intro-hero.webp"
+date: last-modified
+date-format: "D MMM YYYY, HH:mm:ss"
 ---
+![](resources/bayesian-intro-hero.webp){fig-align="center" width="50%"}
 
 Welcome to the world of Bayesian statistics! 
 

@@ -1,9 +1,18 @@
 ---
 title: "Getting Started"
-subtitle: "An introduction to Bayesian statistics for applied research."
+subtitle: "Software and other preparations"
+date: last-modified
+date-format: "D MMM YYYY, HH:mm:ss"
+image: "resources/getting-started-hero.webp"
+format:
+  html:
+    embed-resources: true
 ---
+![](resources/getting-started-hero.webp){fig-align="center" width="50%"}
 
-The tutorials included in this Bayesian Intro will provide hands-on experience with Bayesian modelling using free and open source software--Stan and R. We use Stan because it is fast, flexible, very well documented, and supported by an active community of developers and users (see [Reading](#sec-reading) section). Note that we use R, but Stan also has support for Python, Julia, MATLAB, and command line interfaces, among others (see <a href="https://mc-stan.org/tools/index.html" target="_blank">Stan Toolkit</a>). 
+Let's make sure you have everything you need to get off to a good start! 
+
+The tutorials included in this Bayesian Intro will provide hands-on experience with Bayesian modelling for beginners using free and open source software--Stan and R. We use Stan because it is fast, flexible, well documented, and supported by an active community of developers and users (see [Reading](#sec-reading) section). Note that we use R, but Stan also has support for Python, Julia, MATLAB, and command line interfaces, among others (see <a href="https://mc-stan.org/tools/index.html" target="_blank">Stan Toolkit</a>). 
 
 
 ## Software
@@ -14,7 +23,7 @@ You will need the following software to be able to run the example code on your 
 
 1. R and <a href="https://posit.co/download/rstudio-desktop/" target="_blank">RStudio</a> or <a href="https://positron.posit.co/" target="_blank">Positron</a> (or your favourite R IDE)   
 2. <a href="https://mc-stan.org/cmdstanr/articles/cmdstanr.html" target="_blank">Getting Started with CmdStanR</a>. (**Note:** Be sure to complete the *Introduction* and *Installing CmdStan* sections).
- 
+
 ## Reading {#sec-reading}
 
 ### Bayesian Statistics  
