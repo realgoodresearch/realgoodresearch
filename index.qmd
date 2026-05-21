@@ -1,0 +1,90 @@
+---
+pagetitle: "Real Good Research"
+body-classes: home-landing
+page-layout: full
+---
+
+<div class="home-page">
+
+<div class="home-hero">
+  <img class="home-hero-media" src="assets/images/home/pexels-photo-772803.jpeg" alt="Mountain landscape">
+  <div class="home-hero-copy">
+<div class="home-hero-title">Real Good Research</div>
+<div class="home-hero-tagline">Doing <strong>real good</strong> in the world through innovative <strong>research</strong>.</div>
+  </div>
+</div>
+
+::: {.home-band .home-band-plain}
+::: {.home-split}
+::: {.home-image}
+![](assets/images/home/pexels-photo-3184638.jpeg){fig-alt="People leaning over a table"}
+:::
+
+::: {.home-copy}
+## Our mission
+
+At **Real Good Research**, our passion is using science for problem solving to do good things for people and the planet.
+
+We focus on **population estimation in data scarce contexts** because this provides critical information needed for sustainable development, environmental conservation, and humanitarian response.
+:::
+:::
+:::
+
+::: {.home-band .home-band-blue}
+::: {.home-split .home-split-reverse}
+::: {.home-copy}
+## Innovation
+
+**Science is at the core** of everything we do, from developing new ways to use innovative data to evaluating the weight of evidence that guides decision-making.
+
+We prototype experimental solutions quickly and iterate methodically towards better solutions for our partners.
+
+Our open science practices help build trust in new methods and allow community collaboration to make improvements.
+:::
+
+::: {.home-image .home-image-portrait}
+![](assets/images/home/pexels-photo-1830252.jpeg){fig-alt="Person holding a light bulb"}
+:::
+:::
+:::
+
+::: {.home-band .home-band-cream}
+::: {.home-split}
+::: {.home-image .home-image-portrait}
+![](assets/images/home/pexels-photo-4126255.jpeg){fig-alt="Woman holding a puzzle piece"}
+:::
+
+::: {.home-copy}
+## Geeks in action
+
+Real good researchers put science into action for **humanitarian response** and **sustainable development**.
+
+We partner with the United Nations and NGOs to find the right challenges and to deliver results that matter.
+:::
+:::
+:::
+
+::: {.home-band .home-band-grey}
+::: {.home-split .home-split-reverse}
+::: {.home-copy}
+## Sharing our secrets
+
+The Real Good Research team wants to **teach you how to do what we do**. Then, you take over and we move on to the next challenge.
+
+Through our open science, capacity strengthening workshops, and academic teaching, we want to empower the global community of real good researchers to work on solving big important challenges together.
+:::
+
+::: {.home-image}
+![](assets/images/home/pexels-photo-3862130.jpeg){fig-alt="Woman writing on a whiteboard"}
+:::
+:::
+:::
+
+::: {.home-contact}
+## Contact us
+
+Please [Contact Us](contact.qmd) to reach out with ideas and opportunities to do good things.
+
+Find our code and collaborate with us on GitHub at [realgoodresearch](https://github.com/realgoodresearch).
+:::
+:::

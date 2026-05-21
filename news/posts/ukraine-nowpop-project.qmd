@@ -1,0 +1,20 @@
+---
+title: "Ukraine NowPop Project"
+date: 2025-09-27
+description: "Near real-time population estimates for Ukraine that informed humanitarian planning after the large-scale invasion."
+image: "../../assets/images/news/ukraine-nowpop.jpg"
+---
+
+::: {.post-shell}
+
+On 22 February 2022, we read the news of the large-scale Russian invasion into Ukraine, and we wanted to find a way to contribute to the humanitarian response. Through our involvement with the [Digital Gender Gaps Project](https://digitalgendergaps.org), we had built computing infrastructure to collect data at a global scale from Meta's targeted advertising platform. This gave us counts of active users on Facebook and Instagram each day for specific locations.
+
+In collaboration with the International Organization for Migration and the United Nations Office for the Coordination of Humanitarian Affairs, we developed a method to estimate population sizes every day for every oblast in Ukraine from these counts of active Facebook users. We quickly realised that this provided a crucial piece of information for the humanitarian response that was otherwise unavailable at that time, about three weeks after the large-scale invasion.
+
+Our estimates served as a triangulation data source alongside IOM estimates of internally displaced persons from telephone surveys. Together these sources provided the evidence needed to drastically revise the estimate of internally displaced persons from about 1.6 million to nearly 6 million in mid-March 2022.
+
+We continued to provide near real-time population estimates for Ukraine for well over a year, and this work led to a partnership with the World Health Organization who supported a long-term research project hosted at the Leverhulme Centre for Demographic Science at the University of Oxford to further explore how digital trace data can be used for population nowcasting in Ukraine.
+
+We published our bespoke method in [Population and Development Review](https://onlinelibrary.wiley.com/doi/10.1111/padr.12558). This approach has since been transferred to similar work on our [Gaza NowPop Project](gaza-nowpop.qmd), and new research at the University of Liverpool is extending the method for mobile phone GPS data ([Iradukunda et al. 2025](https://doi.org/10.48550/arXiv.2504.00003)).
+
+:::

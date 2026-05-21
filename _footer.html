@@ -1,0 +1,39 @@
+<footer class="custom-footer">
+  <div>Copyright © 2025-2026 Real Good Research Ltd. All rights reserved.</div>
+  <div>Real Good Research (UK Company Number: 16742505), Belmont Suite Paragon Business Park, Chorley New Road, Bolton,
+    Lancashire, BL6 6HG, United
+    Kingdom</div>
+</footer>
+<script>
+  (() => {
+    const toneClasses = ["tone-1", "tone-2", "tone-3", "tone-4", "tone-5", "tone-6"];
+    const targets = [
+      ".research-paper",
+      ".team-card"
+    ];
+
+    const pickTones = (count) => {
+      const tones = [];
+      while (tones.length < count) {
+        const shuffled = [...toneClasses].sort(() => Math.random() - 0.5);
+        tones.push(...shuffled);
+      }
+      return tones.slice(0, count);
+    };
+
+    const applyTones = () => {
+      targets.forEach((selector) => {
+        const cards = Array.from(document.querySelectorAll(selector));
+        const tones = pickTones(cards.length);
+        cards.forEach((card, index) => {
+          toneClasses.forEach((tone) => card.classList.remove(tone));
+          card.classList.add(tones[index]);
+        });
+      });
+    };
+
+    window.addEventListener("DOMContentLoaded", () => {
+      applyTones();
+    });
+  })();
+</script>

@@ -1,0 +1,22 @@
+---
+title: "Digital Gender Gaps"
+date: 2025-10-09
+description: "Subnational measurement of the digital gender divide globally, refreshed every month."
+image: "../../assets/images/news/pexels-photo-8819449.jpeg"
+---
+
+::: {.post-shell}
+
+::: {.post-card}
+Check out our [new paper in Proceedings of the National Academy of Sciences](https://www.pnas.org/doi/10.1073/pnas.2416624122) led by Casey Breen and Ridhi Kashyap at the University of Oxford on mapping subnational digital gender gaps globally every month.
+:::
+
+Internet and mobile phone technologies have rapidly expanded to reach even some of the most remote communities on earth, but equal access to these technologies between men and women is far from universal. When women lag behind in digital access, this can limit opportunities for improved healthcare, employment, education, and social connections. While the benefits of digital access are well documented, there is a need to better measure digital gender gaps and progress towards equality in many parts of the world.
+
+The [Digital Gender Gaps](https://www.digitalgendergaps.org/) project led by Professor Ridhi Kashyap at the University of Oxford is leading the charge in measuring and mapping digital gender gaps globally with subnational granularity. This is made possible by innovations in the ways we can leverage digital footprints, the traces we leave behind as we use the internet and social media, to measure and monitor progress towards reducing inequalities.
+
+Real Good Research supports this effort by developing the underlying machinery needed to collect and analyse global data on social media usage at subnational levels for men and women of different ages. Through this work we have built a large database measuring social media usage that has been used for a range of applications, including population nowcasting in [Ukraine](ukraine-nowpop-project.qmd) and [Gaza](gaza-nowpop.qmd) to monitor forced displacement due to armed conflict.
+
+We also worked with our close partners at [GISRede](https://gisrede.com) to build the [Digital Gender Gaps Dashboard](https://www.digitalgendergaps.org/dashboard/), which provides an interactive map with up-to-date measures of the digital gender divide and historical trends for sub-national locations globally.
+
+:::

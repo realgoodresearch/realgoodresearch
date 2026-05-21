@@ -1,0 +1,29 @@
+---
+title: "Contact us"
+pagetitle: "Contact"
+subtitle: "We'd love to hear from you!"
+---
+
+::: {.page-shell}
+
+::: {.contact-grid}
+
+::: {.contact-body}
+### Email
+
+::: {.contact-copy}
+Reach out directly at [info@realgoodresearch.com](mailto:info@realgoodresearch.com) to discuss a project, course, collaboration, or idea.
+:::
+:::
+
+
+
+::: {.contact-body}
+### Collaborative Coding
+
+::: {.contact-copy}
+Find our code and collaborate with us on GitHub at <a href="https://github.com/realgoodresearch" target="_blank">github.com/realgoodresearch</a>.
+:::
+:::
+
+:::

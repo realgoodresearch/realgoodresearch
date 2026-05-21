@@ -1,0 +1,12 @@
+---
+title: "News"
+subtitle: "Latest articles, project updates, and teaching news from Real Good Research."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  fields: [image, date, title, description]
+  image-height: 220px
+  categories: false
+---
+

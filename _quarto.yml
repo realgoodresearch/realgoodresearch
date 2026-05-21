@@ -1,0 +1,41 @@
+project:
+  type: website
+
+website:
+  title: "Real Good Research"
+  site-url: https://realgoodresearch.com
+  search: true
+  navbar:
+    background: black
+    type: dark
+    border: true
+    left:
+      - href: about.qmd
+        text: Team
+      - href: research.qmd
+        text: Research
+      - href: news/index.qmd
+        text: News
+      - href: contact.qmd
+        text: Contact
+    right:
+      - href: https://data.realgoodresearch.com
+        text: Data
+      - href: https://docs.realgoodresearch.com
+        text: Docs
+      - href: https://github.com/realgoodresearch
+        target: _blank
+        text: Code
+      - href: https://realgoodresearch.com
+        text: Home
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom-theme.scss
+    include-after-body: _footer.html
+    toc: false
+    page-layout: full
+    smooth-scroll: true
+

@@ -1,0 +1,20 @@
+---
+title: "Gaza NowPop Project"
+date: 2025-11-24
+description: "Near real-time population nowcasting in Gaza to support the international humanitarian response."
+image: "../../assets/images/news/pexels-photo-22608382.jpeg"
+---
+
+::: {.post-shell}
+
+We started the Gaza NowPop Project on 7 October 2023 immediately following the Israeli incursion into the Gaza Strip. We extended methods that we originally developed for the [Ukraine NowPop Project](ukraine-nowpop-project.qmd) ([Leasure et al. 2023](https://doi.org/10.1111/padr.12558)) by repurposing targeted advertising data from Meta for population nowcasting in near real-time. We provided these estimates to the United Nations humanitarian response through our participation in the interagency Assessment and Information Management Working Group for the humanitarian response in the occupied Palestinian territories.
+
+During the full evacuation of Rafah, the southern-most region of the Gaza Strip, in March 2024, we had improved our methods enough to create daily population estimates at the municipality level. But a change on March 15, 2024 in the data provided by Meta's targeted advertising platform made it impossible for us to continue using this source for population nowcasting. That abrupt shift called for more rapid innovation to continue providing a clear picture of where displaced populations were located so that aid could be more effectively delivered.
+
+Soon after the polio epidemic in the Gaza Strip, we partnered with the World Health Organization to develop population estimation methods using data from the first round of polio vaccinations and the post-campaign surveys that were conducted. On a tight two-week emergency timeline, we developed a bespoke statistical mark-recapture model capable of combining information from vaccination data, finger marking dye, and vaccine self-reporting to estimate current population sizes at the governorate level.
+
+That work provided an important source of information for the second and third rounds of the polio vaccination campaign in Gaza, including an independent estimate of vaccine coverage. It also allowed the vaccination data to be used for estimating population sizes more generally across the Gaza Strip, giving a much-needed snapshot of population distributions needed for targeted aid delivery.
+
+Our support for the humanitarian response in Gaza is ongoing, and the need for innovation is more important now than ever.
+
+:::

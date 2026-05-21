@@ -1,0 +1,115 @@
+---
+title: "Meet the Team"
+pagetitle: "Team"
+subtitle: "Real Good Research is a network of academic researchers and data scientists, and we want to put our skills into action to solve real-world problems."
+---
+::: {.page-shell}
+
+::: {.team-grid}
+::: {.team-card}
+![](assets/images/about/citations.jpg){fig-alt="Doug Leasure"}
+
+::: {.team-body}
+### Doug Leasure, PhD
+
+::: {.team-role}
+Director & Research Data Scientist
+:::
+
+::: {.team-bio}
+Director of Real Good Research. Senior Researcher and Data Scientist for the Leverhulme Centre for Demographic Science at the University of Oxford. Interested in near real-time population nowcasting methods, particularly Bayesian statistics, using a combination of digital trace data, satellite remote sensing, and survey data.
+:::
+:::
+:::
+
+::: {.team-card}
+![](assets/images/about/id_pic_serious.png){fig-alt="Edith Darin"}
+
+::: {.team-body}
+### Edith Darin, MSc
+
+::: {.team-role}
+Population Data Scientist
+:::
+::: {.team-bio}
+Doctoral researcher at the University of Oxford developing statistical modelling approaches to estimate forced population displacement and to fill gaps in incomplete censuses using administrative registers, mobile phone data, social media, and satellite imagery.
+:::
+:::
+:::
+
+::: {.team-card}
+![](assets/images/about/karim-edited.webp){fig-alt="Karim Alaa El-Din"}
+
+::: {.team-body}
+### Karim Alaa El-Din, MSci
+
+::: {.team-role}
+Computer Vision Engineer
+:::
+::: {.team-bio}
+Director of Eden Technology Limited. Karim is currently working on his PhD in computational quantum physics at the University of Oxford and contributes satellite image analysis for tent identification and population estimation.
+:::
+:::
+:::
+
+::: {.team-card}
+![](assets/images/about/c_dooley.jpg){fig-alt="Claire Dooley"}
+
+::: {.team-body}
+### Claire Dooley, DPhil
+
+::: {.team-role}
+Applied Researcher in Survey Methods and Spatial Analysis
+:::
+::: {.team-bio}
+Lecturer in Spatial Data Science from the Centre for Advanced Spatial Analysis at University College London. Specialising in geocomputing methods for bespoke survey sampling frames and spatial analysis to better understand the needs of marginalised and vulnerable populations.
+:::
+:::
+:::
+
+::: {.team-card}
+![](assets/images/about/bondarenko_maksym.jpeg){fig-alt="Maksym Bondarenko"}
+
+::: {.team-body}
+### Maksym Bondarenko, PhD
+
+::: {.team-role}
+Spatial Data Engineer and Software/Web Developer
+:::
+::: {.team-bio}
+Leader of the Spatial Data Infrastructure Team for WorldPop at the University of Southampton. Focused on computational architecture for high-resolution population datasets and the development of interactive data dashboards and data repositories.
+:::
+:::
+:::
+
+::: {.team-card}
+![](assets/images/about/gianlucaboo.webp){fig-alt="Gianluca Boo"}
+
+::: {.team-body}
+### Gianluca Boo, PhD
+
+::: {.team-role}
+Data Scientist and Graphical Designer
+:::
+::: {.team-bio}
+Quantitative Research Leader at RAND Europe with a background in end-to-end data science, bespoke datasets, advanced visualisation, demography, epidemiology, forensics, and urban planning.
+:::
+:::
+:::
+
+::: {.team-card}
+![](assets/images/about/david_kerr.jpg){fig-alt="David Kerr"}
+
+::: {.team-body}
+### David Kerr, MSc
+
+::: {.team-role}
+Database Engineer and Back-end Web Developer
+:::
+::: {.team-bio}
+Senior Back-end Engineer at MapMortar. Previously worked as a geospatial data scientist on WorldPop’s Spatial Data Infrastructure team and contributes innovative data dashboards and GIS insights for academic research.
+:::
+:::
+:::
+:::
+:::
