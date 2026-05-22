@@ -6,6 +6,8 @@ website:
   site-url: https://realgoodresearch.com
   search: true
   navbar:
+    title: false
+    logo: assets/images/logo/real-good-research-white-logo-square-transparent.png
     background: black
     type: dark
     border: true
@@ -38,4 +40,3 @@ format:
     toc: false
     page-layout: full
     smooth-scroll: true
-
