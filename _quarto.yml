@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Real Good Research"
+  favicon: assets/images/logo/favicon.ico
   site-url: https://realgoodresearch.com
   search: true
   navbar:
