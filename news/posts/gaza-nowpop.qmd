@@ -7,6 +7,10 @@ image: "../../assets/images/news/pexels-photo-22608382.jpeg"
 
 ::: {.post-shell}
 
+::: {.post-hero-image}
+![](../../assets/images/news/pexels-photo-22608382.jpeg){fig-alt="Gaza NowPop Project hero image"}
+:::
+
 We started the Gaza NowPop Project on 7 October 2023 immediately following the Israeli incursion into the Gaza Strip. We extended methods that we originally developed for the [Ukraine NowPop Project](ukraine-nowpop-project.qmd) ([Leasure et al. 2023](https://doi.org/10.1111/padr.12558)) by repurposing targeted advertising data from Meta for population nowcasting in near real-time. We provided these estimates to the United Nations humanitarian response through our participation in the interagency Assessment and Information Management Working Group for the humanitarian response in the occupied Palestinian territories.
 
 During the full evacuation of Rafah, the southern-most region of the Gaza Strip, in March 2024, we had improved our methods enough to create daily population estimates at the municipality level. But a change on March 15, 2024 in the data provided by Meta's targeted advertising platform made it impossible for us to continue using this source for population nowcasting. That abrupt shift called for more rapid innovation to continue providing a clear picture of where displaced populations were located so that aid could be more effectively delivered.

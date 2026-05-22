@@ -7,6 +7,10 @@ image: "../../assets/images/news/ukraine-nowpop.jpg"
 
 ::: {.post-shell}
 
+::: {.post-hero-image}
+![](../../assets/images/news/ukraine-nowpop.jpg){fig-alt="Ukraine NowPop Project hero image"}
+:::
+
 On 22 February 2022, we read the news of the large-scale Russian invasion into Ukraine, and we wanted to find a way to contribute to the humanitarian response. Through our involvement with the [Digital Gender Gaps Project](https://digitalgendergaps.org), we had built computing infrastructure to collect data at a global scale from Meta's targeted advertising platform. This gave us counts of active users on Facebook and Instagram each day for specific locations.
 
 In collaboration with the International Organization for Migration and the United Nations Office for the Coordination of Humanitarian Affairs, we developed a method to estimate population sizes every day for every oblast in Ukraine from these counts of active Facebook users. We quickly realised that this provided a crucial piece of information for the humanitarian response that was otherwise unavailable at that time, about three weeks after the large-scale invasion.

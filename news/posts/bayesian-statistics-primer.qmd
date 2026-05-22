@@ -7,6 +7,10 @@ image: "../../assets/images/news/pexels-photo-8197544.jpeg"
 
 ::: {.post-shell}
 
+::: {.post-hero-image}
+![](../../assets/images/news/pexels-photo-8197544.jpeg){fig-alt="Bayesian Statistics Primer hero image"}
+:::
+
 Dr. Doug Leasure of Real Good Research and the University of Oxford will teach a couple of intensive two-day workshops on the basics of Bayesian statistics to students of the [Grand Union Doctoral Training Partnership](https://www.granduniondtp.ac.uk/). One course was taught alongside Dr. Michael Chong of the University of Oxford at the London School of Economics on February 5-6, 2026 and the other will be taught at the University of Oxford on June 10-11, 2026.
 
 Course materials are available from our GitHub [here](https://github.com/realgoodresearch/bayesian_intro).

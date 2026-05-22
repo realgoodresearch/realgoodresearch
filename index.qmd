@@ -2,6 +2,15 @@
 pagetitle: "Real Good Research"
 body-classes: home-landing
 page-layout: full
+listing:
+  - id: home-news
+    contents: news/posts
+    sort: "date desc"
+    max-items: 5
+    type: grid
+    fields: [image, title]
+    image-height: 250px
+    categories: false
 ---
 
 <div class="home-page">
@@ -9,15 +18,22 @@ page-layout: full
 <div class="home-hero">
   <img class="home-hero-media" src="assets/images/home/pexels-photo-772803.jpeg" alt="Mountain landscape">
   <div class="home-hero-copy">
+
 <div class="home-hero-title">Real Good Research</div>
 <div class="home-hero-tagline">Doing <strong>real good</strong> in the world through innovative <strong>research</strong>.</div>
-  </div>
+
+<div class="home-hero-news-carousel">
+<div id="home-news-slot"></div>
+
+</div>
+</div>
 </div>
 
 ::: {.home-band .home-band-plain}
 ::: {.home-split}
 ::: {.home-image}
 ![](assets/images/home/pexels-photo-3184638.jpeg){fig-alt="People leaning over a table"}
+
 :::
 
 ::: {.home-copy}
@@ -29,6 +45,8 @@ We focus on **population estimation in data scarce contexts** because this provi
 :::
 :::
 :::
+
+<script src="assets/js/home-carousel.js"></script>
 
 ::: {.home-band .home-band-blue}
 ::: {.home-split .home-split-reverse}
@@ -83,8 +101,10 @@ Through our open science, capacity strengthening workshops, and academic teachin
 ::: {.home-contact}
 ## Contact us
 
-Please [Contact Us](contact.qmd) to reach out with ideas and opportunities to do good things.
+Please [contact us](contact.qmd) with your ideas and opportunities to do good things.
 
 Find our code and collaborate with us on GitHub at [realgoodresearch](https://github.com/realgoodresearch).
 :::
-:::
+
+
+</div>

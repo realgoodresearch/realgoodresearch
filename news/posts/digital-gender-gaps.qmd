@@ -7,6 +7,10 @@ image: "../../assets/images/news/pexels-photo-8819449.jpeg"
 
 ::: {.post-shell}
 
+::: {.post-hero-image}
+![](../../assets/images/news/pexels-photo-8819449.jpeg){fig-alt="Digital Gender Gaps hero image"}
+:::
+
 ::: {.post-card}
 Check out our [new paper in Proceedings of the National Academy of Sciences](https://www.pnas.org/doi/10.1073/pnas.2416624122) led by Casey Breen and Ridhi Kashyap at the University of Oxford on mapping subnational digital gender gaps globally every month.
 :::
