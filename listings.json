@@ -1,0 +1,22 @@
+[
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/posts/gaza-displacement-study.html",
+      "/news/posts/bayesian-statistics-primer.html",
+      "/news/posts/gaza-nowpop.html",
+      "/news/posts/digital-gender-gaps.html",
+      "/news/posts/ukraine-nowpop-project.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/news/posts/gaza-displacement-study.html",
+      "/news/posts/bayesian-statistics-primer.html",
+      "/news/posts/gaza-nowpop.html",
+      "/news/posts/digital-gender-gaps.html",
+      "/news/posts/ukraine-nowpop-project.html"
+    ]
+  }
+]
