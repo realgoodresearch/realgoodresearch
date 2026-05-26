@@ -8,6 +8,24 @@ pagetitle: "Research"
 
 ::: {.project-grid .research-grid}
 
+<!-- Gaza displacement study PDR -->
+::: {.project-card .research-paper}
+<img src="assets/images/news/gaza_displacement_study/pexels-mohamed-zarandah-217424204-12486092.jpg" alt="Gaza displacement study figure" style="object-position: 70% 50%;">
+
+::: {.project-body}
+### New study uses digital data to monitor unprecedented displacement in Gaza in near real time
+A new study by Oxford researchers from the Leverhulme Centre for Demographic Science (LCDS), Edith Darin, Ridhi Kashyap, and Douglas Leasure, introduces a novel approach to tracking population movements in conflict zones, offering a near real-time view of forced displacement in the Gaza Strip. The research, published in *Population and Development Review*, leverages high-frequency digital data to provide one of the most detailed accounts of population dynamics during the first six months of the Israel–Hamas war.
+
+::: {.research-citation}
+Darin, E., Kashyap, R., & Leasure, D. R. (2026). Leveraging High-Frequency Digital Data to Analyze Forced Displacement Dynamics: A Case Study from the Gaza Strip. *Population and Development Review*. https://doi.org/10.1111/padr.70064
+:::
+
+[Read the paper](https://doi.org/10.1111/padr.70064){.button-secondary target="_blank"}
+:::
+:::
+
+
+<!-- Ukraine displacement study PDR -->
 ::: {.project-card .research-paper}
 ![](assets/images/research/pexels-photo-11284549.jpeg){fig-alt="Ukraine protest sign"}
 
@@ -23,6 +41,7 @@ Leasure DR, Kashyap R, Rampazzo F, Dooley CA, Elbers B, Bondarenko M, et al. 202
 :::
 :::
 
+<!-- DRC population estimation Nature Comms -->
 ::: {.project-card .research-paper}
 ![](assets/images/research/pexels-photo-30754257.jpeg){fig-alt="DRC street scene"}
 
@@ -38,6 +57,8 @@ Boo G, Darin E, Leasure DR, Dooley CA, Chamberlain HR, et al. 2022. *Nature Comm
 :::
 :::
 
+
+<!-- Colombia social cartography: Population Studies -->
 ::: {.project-card .research-paper}
 ![](assets/images/research/pexels-photo-29180875.jpeg){fig-alt="Workshop participants"}
 
@@ -56,6 +77,8 @@ Sanchez-Cespedes LM, Leasure DR, Tejedor-Garavito N, et al. 2024. *Population St
 ::: {.project-card .research-paper}
 ![](assets/images/research/pexels-photo-34117458.jpeg){fig-alt="Friends outdoors"}
 
+
+<!-- Nigeria population mapping PNAS -->
 ::: {.project-body}
 ### National population mapping from sparse survey data in Nigeria while accounting for uncertainty
 This paper developed a Bayesian statistical method to provide up-to-date population estimates for every 100-m grid cell across Nigeria, where census timing and quality created major data gaps.
@@ -83,6 +106,7 @@ Jochem WC, Leasure DR, Pannell O, Chamberlain HR, Jones P, Tatem AJ. 2021. *Envi
 :::
 :::
 
+<!-- Trout population forecasting Ecology -->
 ::: {.project-card .research-paper}
 ![](assets/images/research/trout-illustration.png){fig-alt="Fish illustration"}
 
