@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://realgoodresearch.com/research.html</loc>
-    <lastmod>2026-05-26T15:05:01.316Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realgoodresearch.com/news/index.html</loc>
-    <lastmod>2026-05-26T15:05:01.314Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realgoodresearch.com/news/posts/gaza-nowpop.html</loc>
-    <lastmod>2026-05-26T15:05:01.315Z</lastmod>
-  </url>
-  <url>
-    <loc>https://realgoodresearch.com/news/posts/bayesian-statistics-primer.html</loc>
-    <lastmod>2026-05-26T15:05:01.314Z</lastmod>
+    <loc>https://realgoodresearch.com/index.html</loc>
+    <lastmod>2026-06-03T12:57:07.803Z</lastmod>
   </url>
   <url>
     <loc>https://realgoodresearch.com/about.html</loc>
-    <lastmod>2026-05-26T15:05:01.258Z</lastmod>
+    <lastmod>2026-06-03T12:57:07.783Z</lastmod>
   </url>
   <url>
-    <loc>https://realgoodresearch.com/index.html</loc>
-    <lastmod>2026-05-26T15:05:01.313Z</lastmod>
+    <loc>https://realgoodresearch.com/news/posts/gaza-tents.html</loc>
+    <lastmod>2026-06-03T12:57:07.804Z</lastmod>
   </url>
   <url>
     <loc>https://realgoodresearch.com/news/posts/gaza-displacement-study.html</loc>
-    <lastmod>2026-05-26T15:05:01.315Z</lastmod>
+    <lastmod>2026-06-03T12:57:07.804Z</lastmod>
+  </url>
+  <url>
+    <loc>https://realgoodresearch.com/news/posts/gaza-nowpop.html</loc>
+    <lastmod>2026-06-03T12:57:07.804Z</lastmod>
+  </url>
+  <url>
+    <loc>https://realgoodresearch.com/news/index.html</loc>
+    <lastmod>2026-06-03T12:57:07.803Z</lastmod>
+  </url>
+  <url>
+    <loc>https://realgoodresearch.com/news/posts/bayesian-statistics-primer.html</loc>
+    <lastmod>2026-06-03T12:57:07.804Z</lastmod>
   </url>
   <url>
     <loc>https://realgoodresearch.com/news/posts/ukraine-nowpop-project.html</loc>
-    <lastmod>2026-05-26T15:05:01.315Z</lastmod>
+    <lastmod>2026-06-03T12:57:07.804Z</lastmod>
   </url>
   <url>
     <loc>https://realgoodresearch.com/news/posts/digital-gender-gaps.html</loc>
-    <lastmod>2026-05-26T15:05:01.315Z</lastmod>
+    <lastmod>2026-06-03T12:57:07.804Z</lastmod>
+  </url>
+  <url>
+    <loc>https://realgoodresearch.com/research.html</loc>
+    <lastmod>2026-06-03T12:57:07.805Z</lastmod>
   </url>
   <url>
     <loc>https://realgoodresearch.com/contact.html</loc>
-    <lastmod>2026-05-26T15:05:01.313Z</lastmod>
+    <lastmod>2026-06-03T12:57:07.803Z</lastmod>
   </url>
 </urlset>

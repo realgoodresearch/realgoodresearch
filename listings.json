@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/news/index.html",
+    "listing": "/index.html",
     "items": [
+      "/news/posts/gaza-tents.html",
       "/news/posts/gaza-displacement-study.html",
       "/news/posts/bayesian-statistics-primer.html",
       "/news/posts/gaza-nowpop.html",
@@ -10,8 +11,9 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/news/index.html",
     "items": [
+      "/news/posts/gaza-tents.html",
       "/news/posts/gaza-displacement-study.html",
       "/news/posts/bayesian-statistics-primer.html",
       "/news/posts/gaza-nowpop.html",
