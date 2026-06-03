@@ -1,0 +1,15 @@
+Package: realgoodresearch
+Title: Real Good Research Quarto Site
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Doug",
+           family = "Leasure",
+           role = c("aut", "cre"),
+           email = "contact@realgoodresearch.com")
+Description: Dependency manifest for rendering the Real Good Research
+    Quarto site in local and CI environments.
+License: file LICENSE
+Encoding: UTF-8
+Imports:
+    htmltools,
+    knitr
