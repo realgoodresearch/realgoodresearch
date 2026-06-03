@@ -1,15 +1,20 @@
 ---
 title: "Gaza NowPop Project"
+subtitle: "Up-to-date population estimation using privacy-preserving telecommunications data and satellite imagery to support targeted humanitarian aid."
 date: 2025-11-24
 description: "Near real-time population nowcasting in Gaza to support the international humanitarian response."
+categories: [news, research, data]
 image: "../../assets/images/news/pexels-photo-22608382.jpeg"
 ---
 
+
 ::: {.post-shell}
 
-::: {.post-hero-image}
-![](../../assets/images/news/pexels-photo-22608382.jpeg){fig-alt="Gaza NowPop Project hero image"}
-:::
+**Data Download:** <a href="https://data.realgoodresearch.com" target="_blank">https://data.realgoodresearch.com</a>  
+**Source Code:** <a href="https://github.com/realgoodresearch/GazaNowPop" target="_blank">https://github.com/realgoodresearch/GazaNowPop</a>
+
+
+<img src="../../assets/images/news/pexels-photo-22608382.jpeg" alt="Gaza NowPop Project hero image" class="post-hero-image" style="width: 80%; height: auto"/>
 
 We started the Gaza NowPop Project on 7 October 2023 immediately following the Israeli incursion into the Gaza Strip. We extended methods that we originally developed for the [Ukraine NowPop Project](ukraine-nowpop-project.qmd) ([Leasure et al. 2023](https://doi.org/10.1111/padr.12558)) by repurposing targeted advertising data from Meta for population nowcasting in near real-time. We provided these estimates to the United Nations humanitarian response through our participation in the interagency Assessment and Information Management Working Group for the humanitarian response in the occupied Palestinian territories.
 
@@ -19,6 +24,6 @@ Soon after the polio epidemic in the Gaza Strip, we partnered with the World Hea
 
 That work provided an important source of information for the second and third rounds of the polio vaccination campaign in Gaza, including an independent estimate of vaccine coverage. It also allowed the vaccination data to be used for estimating population sizes more generally across the Gaza Strip, giving a much-needed snapshot of population distributions needed for targeted aid delivery.
 
-Our support for the humanitarian response in Gaza is ongoing, and the need for innovation is more important now than ever.
+More recently, we have been using privacy-preserving telecommunications data and satellite imagery to produce up-to-date population estimates on a 100-m grid across the Gaza strip. Supporting this work, we developed a machine learning model to identify tent shelters from Planet Labs satellite imagery, which we use as a key input for our population estimation methods. The datasets of population estimates and tent mapping are freely available for download and use by the public and humanitarian partners working on the ground in Gaza (more granular data are restricted access for humanitarians working in Gaza). 
 
 :::

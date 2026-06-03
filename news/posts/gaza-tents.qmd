@@ -1,0 +1,170 @@
+---
+title: "Gaza Tents: Automated Mapping of Tent Shelters from Satellite Imagery"
+subtitle: "A bespoke machine learning model to efficiently monitor the proliferation and movements of tent shelters in Gaza."
+author: "Doug Leasure"
+date: "2026-06-03"
+categories: [news, research, data]
+image: "../../assets/images/news/gaza_tents/gaza-tents-hero.png"
+---
+
+**New data just released!** We are excited to share a new dataset mapping the locations of tent shelters in Gaza as of April 2026, derived from high-resolution satellite imagery from Planet Labs using a bespoke machine learning algorithm that we developed specifically for this context. 
+
+<strong>Data Download<sup>*</sup>:</strong> <a href="https://data.realgoodresearch.com/collection.html?slug=gazatents-5apr2026" target="_blank">https://data.realgoodresearch.com/collection.html?slug=gazatents-5apr2026</a>
+**Source Code:** <a href="https://github.com/realgoodresearch/TentNetFA" target="_blank">https://github.com/realgoodresearch/TentNetFA</a>
+
+<p style="font-size: 0.8em"><sup>*</sup><em>Governorate-level tent counts are openly available to the public. More granular data at the levels of municipalities, neighbourhoods, 100-m grids, or individual tent locations are restricted access for use by humanitarian partners working in Gaza. Contact us at <a href="mailto:contact@realgoodresearch.com">contact@realgoodresearch.com</a> to request access with approval by UNOCHA.</em></p> 
+
+::: {#fig-tent-slider}
+
+```{r}
+#| echo: false
+#| results: asis
+data_dir <- file.path(
+  "..",
+  "..",
+  "assets",
+  "images",
+  "news",
+  "gaza_tents"
+)
+img_a <- file.path(
+  data_dir,
+  paste0("fig_tent_point_slider_A.jpg")
+)
+img_b <- file.path(
+  data_dir,
+  paste0("fig_tent_point_slider_B.jpg")
+)
+
+if (file.exists(img_a) && file.exists(img_b)) {
+  id <- "tent-slider"
+  img_a_uri <- knitr::image_uri(img_a)
+  img_b_uri <- knitr::image_uri(img_b)
+
+  widget <- htmltools::tagList(
+    htmltools::tags$style(htmltools::HTML(sprintf(
+      "#%1$s-wrap {max-width: 900px; margin: 1rem auto;}
+#%1$s-compare {
+  position: relative;
+  width: 100%%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: ew-resize;
+  touch-action: none;
+  user-select: none;
+}
+#%1$s-compare img {
+  position: absolute;
+  inset: 0;
+  width: 100%%;
+  height: 100%%;
+  object-fit: cover;
+  display: block;
+  pointer-events: none;
+}
+#%1$s-overlay {
+  clip-path: inset(0 50%% 0 0);
+}
+#%1$s-handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%%;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.35);
+  pointer-events: none;
+}
+#%1$s-handle::after {
+  content: '';
+  position: absolute;
+  top: 50%%;
+  left: 50%%;
+  transform: translate(-50%%, -50%%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%%;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.35);
+}",
+      id
+    ))),
+    htmltools::tags$div(
+      id = paste0(id, "-wrap"),
+      htmltools::tags$div(
+        id = paste0(id, "-compare"),
+        htmltools::tags$img(src = img_a_uri, alt = "Satellite image only"),
+        htmltools::tags$img(
+          id = paste0(id, "-overlay"),
+          src = img_b_uri,
+          alt = "Satellite image with tent points"
+        ),
+        htmltools::tags$div(id = paste0(id, "-handle"))
+      )
+    ),
+    htmltools::tags$script(htmltools::HTML(sprintf(
+      "(function() {
+  const compare = document.getElementById('%1$s-compare');
+  const overlay = document.getElementById('%1$s-overlay');
+  const handle = document.getElementById('%1$s-handle');
+  let dragging = false;
+
+  function setPosition(clientX) {
+    const rect = compare.getBoundingClientRect();
+    const x = Math.min(Math.max(clientX - rect.left, 0), rect.width);
+    const pct = rect.width === 0 ? 50 : (x / rect.width) * 100;
+    overlay.style.clipPath = `inset(0 ${100 - pct}%% 0 0)`;
+    handle.style.left = `${pct}%%`;
+  }
+
+  compare.addEventListener('pointerdown', function(event) {
+    dragging = true;
+    compare.setPointerCapture(event.pointerId);
+    setPosition(event.clientX);
+  });
+
+  compare.addEventListener('pointermove', function(event) {
+    if (dragging) {
+      setPosition(event.clientX);
+    }
+  });
+
+  compare.addEventListener('pointerup', function(event) {
+    dragging = false;
+    compare.releasePointerCapture(event.pointerId);
+  });
+
+  compare.addEventListener('pointerleave', function() {
+    dragging = false;
+  });
+
+  setPosition(compare.getBoundingClientRect().left + compare.getBoundingClientRect().width / 2);
+})();",
+      id
+    )))
+  )
+
+  knitr::asis_output(htmltools::renderTags(widget)$html)
+} else {
+  knitr::asis_output(paste0(
+    "<p><em>Slider images not found. Expected:</em><br>",
+    img_a,
+    "<br>",
+    img_b,
+    "</p>"
+  ))
+}
+```
+
+Tent points extracted from Planet Labs satellite imagery using our bespoke machine learning model. Move the slider to compare the two images and see how the model identifies tents from the satellite imagery.
+
+:::
+
+<br>
+
+The dataset provides critical insights into the proliferation and movements of tent shelters in the region, which are in widespread use as temporary housing by populations that have been forcibly displaced by the conflict. We combine these tent mapping results with privacy-preserving telecommunications data to produce up-to-date and data-driven population estimates to support humanitarian response (see our <a href="https://realgoodresearch.com/news/posts/gaza-nowpop.html">Gaza NowPop Project</a>) through our partnerships with the <a href="https://www.unocha.org/occupied-palestinian-territory" target="_blank">United Nations Office for the Coordination of Humanitarian Affairs</a>, the Gaza Site Management Cluster, and <a href="https://acted.org" target="_blank">Acted</a>. We are proud to make our data and source code freely available to the public, and we hope it will be a valuable resource for humanitarians, policymakers, and researchers working in the region.
+
+Oxford PhD students **Karim Alaa El-Din** (Eden Technology) and **Jessica Rapson** (<a href="https://algorithmicgovernance.org" target="_blank">Algorithmic Governance Foundation</a>) are the brains behind these innovations. They developed the bespoke machine learning model capable of rapid and reproducible feature extraction to map the locations of tents from satellite imagery. The project began as a volunteer effort supporting the important work of <a href="https://forensic-architecture.org" target="_blank">Forensic Architecture (Goldsmith's University)</a> pursuing accountability and justice for victims of the conflict. The original training dataset was compiled by a group of dedicated volunteers who manually annotated the locations of thousands of tents from satellite imagery. These volunteers included: **Karim Boudlal**, **Ruby Finn**, **Louis Grego**, **Eloise Hainsworth**, **Riddhi Kanetkar**, **Beatrice McWilliams**, **Daniel Fairfield Orueta**, **Antonia Ronner**, and **Kamakshi Srivastava**. 
+
+Our team is currently working on further improving the model's performance and applying it to new satellite imagery as it becomes available to continue producing up-to-date maps of tent shelter locations in Gaza. Watch this space for future updates! 
