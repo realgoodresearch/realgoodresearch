@@ -25,7 +25,7 @@ jobs:
       - name: Install R dependencies
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          dependencies: "Imports"
+          dependencies: 'c("Imports")'
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
