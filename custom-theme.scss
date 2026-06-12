@@ -23,6 +23,17 @@ $navbar-hl: $accent-blue;
 
 /*-- scss:rules --*/
 
+.bold-link {
+  font-weight: 700;
+  color: $link-color;
+}
+
+a.bold-link:visited,
+a.bold-link:hover,
+a.bold-link:focus {
+  color: $link-color;
+}
+
 /* Global Layout And Typography */
 body {
   padding-bottom: 72px;
@@ -753,7 +764,7 @@ body.nav-fixed.home-landing .quarto-container,
 
 .team-role {
   margin: 0 0 8px;
-  color: $accent-blue;
+  color: $text-muted;
   font-family: "Mulish", sans-serif;
   font-weight: 700;
   font-size: 0.88rem;
