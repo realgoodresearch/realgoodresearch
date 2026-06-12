@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/news/index.html",
     "items": [
       "/news/posts/gaza-tents.html",
       "/news/posts/gaza-displacement-study.html",
@@ -11,7 +11,7 @@
     ]
   },
   {
-    "listing": "/news/index.html",
+    "listing": "/index.html",
     "items": [
       "/news/posts/gaza-tents.html",
       "/news/posts/gaza-displacement-study.html",
