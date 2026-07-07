@@ -2,6 +2,7 @@
   {
     "listing": "/news/index.html",
     "items": [
+      "/news/posts/census-palestine.html",
       "/news/posts/gaza-tents.html",
       "/news/posts/gaza-displacement-study.html",
       "/news/posts/bayesian-statistics-primer.html",
@@ -13,6 +14,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/news/posts/census-palestine.html",
       "/news/posts/gaza-tents.html",
       "/news/posts/gaza-displacement-study.html",
       "/news/posts/bayesian-statistics-primer.html",
