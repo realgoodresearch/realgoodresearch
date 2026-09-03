@@ -310,7 +310,7 @@ body.nav-fixed.home-landing .quarto-container,
 
 /* Homepage Hero News Carousel (Quarto Listing) */
 .home-hero-news-carousel {
-  --carousel-delay-ms: 8000;
+  --carousel-delay-ms: 10000;
   position: relative;
   width: min(710px, calc(100vw - 80px));
   margin-top: 60px;
