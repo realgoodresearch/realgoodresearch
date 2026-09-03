@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-02-08">
+<meta name="description" content="Intensive two-day workshops on the basics of Bayesian statistics, with open course materials available on GitHub.">
 
-<title>News – Real Good Research</title>
+<title>Bayesian Statistics Primer – Real Good Research</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,26 +31,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../assets/images/logo/favicon.ico" rel="icon">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-36f3cf3340dc7189f42d74684d37c1eb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/images/logo/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-36f3cf3340dc7189f42d74684d37c1eb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,79 +76,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/images/logo/real-good-research-white-logo-square-transparent.png" alt="" class="navbar-logo light-content">
-    <img src="../assets/images/logo/real-good-research-white-logo-square-transparent.png" alt="" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/images/logo/real-good-research-white-logo-square-transparent.png" alt="" class="navbar-logo light-content">
+    <img src="../../assets/images/logo/real-good-research-white-logo-square-transparent.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -158,19 +100,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../news/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../news/index.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -199,24 +141,34 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">News</h1>
-<p class="subtitle lead">Latest articles, project updates, and teaching news from Real Good Research.</p>
+<h1 class="title">Bayesian Statistics Primer</h1>
+</div>
+
+<div>
+  <div class="description">
+    Intensive two-day workshops on the basics of Bayesian statistics, with open course materials available on GitHub.
+  </div>
 </div>
 
 
-
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 8, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -226,183 +178,31 @@ window.Quarto = {
 </header>
 
 
+<div class="post-shell">
+<div class="post-hero-image">
+<p><img src="../../assets/images/news/20260208-bayesian-statistics-primer/pexels-photo-8197544.jpeg" class="img-fluid" alt="Bayesian Statistics Primer hero image"></p>
+</div>
+<p>Dr.&nbsp;Doug Leasure of Real Good Research and the University of Oxford will teach a couple of intensive two-day workshops on the basics of Bayesian statistics to students of the <a href="https://www.granduniondtp.ac.uk/">Grand Union Doctoral Training Partnership</a>. One course was taught alongside Dr.&nbsp;Michael Chong of the University of Oxford at the London School of Economics on February 5-6, 2026 and the other will be taught at the University of Oxford on June 10-11, 2026.</p>
+<p>Course materials are available from our GitHub <a href="https://github.com/realgoodresearch/bayesian_intro">here</a>.</p>
+<p>Bayesian statistics is a powerful and flexible approach for statistical inference that offers a range of benefits over traditional approaches for making predictions, particularly in data scarce contexts, and for designing bespoke analyses for your specific dataset and application. We’ve used Bayesian statistics for applications ranging from forecasting fish populations using satellite remote sensing (<a href="https://doi.org/10.1002/ecy.2538">Leasure et al.&nbsp;2019</a>) to mapping human population sizes for every 100-m grid cell in countries that have not conducted a census in a while (<a href="https://doi.org/10.1073/pnas.1913050117">Leasure et al.&nbsp;2020</a>, <a href="https://doi.org/10.1038/s41467-022-29094-x">Boo et al.&nbsp;2022</a>). The course will be taught using 100% free and open source software including R and Stan. <a href="https://mc-stan.org">Stan</a> is software for Bayesian programming that has a huge supportive community with lots of great learning resources and discussion forums to support continued learning.</p>
+<p>The full course advert is below. Reach out to <a href="mailto:info@realgoodresearch.com">info@realgoodresearch.com</a> if you are interested in attending the course or organising a similar course at your institution.</p>
+<div class="post-card">
+<p>This two-day course provides a practical and accessible introduction to Bayesian statistics for applied research in any field. Students will benefit from a combination of lectures and discussion to explore fundamental concepts unlocking the potential to design bespoke statistical analyses based on your data and hypotheses as well as practical exercises to gain hands-on experience implementing Bayesian models using free and open-source software. The course is designed as a springboard to overcome the steepest part of the Bayesian learning curve with an immersive two-day deep-dive.</p>
+<p>Students can expect to gain a working understanding of Bayes theorem, including likelihoods, priors, and posterior probability distributions, and implementation of Markov Chain Monte Carlo for Bayesian model fitting. The course will cover common probability distributions and the know-how to choose between them when designing bespoke models as well as a solid foundation in model validation techniques for high quality research. These concepts will be reinforced through practical lab exercises to gain experience implementing Bayesian models using R and Stan software. Students will be challenged through interactive group discussions to formalise their own mental models into bespoke statistical models that can be used to confront these models with data.</p>
+<p>Students will have the opportunity to schedule a follow-up Bayesian surgery appointment for one-to-one engagement or small-group troubleshooting related to their own research applications.</p>
+<p><strong>Pre-requisites:</strong> Students will need good programming skills in R and a basic understanding of linear regression to be successful in this course.</p>
+<p><strong>Course dates:</strong><br>
+February 5-6, 2026 (10.00-17.00) at London School of Economics<br>
+June 10-11, 2026 (10.00-17.00) at University of Oxford</p>
+<p><strong>Surgery appointments:</strong><br>
+February 13, 2026 (13.00-17.00)<br>
+June 19, 2026 (13.00-17.00)</p>
+</div>
+</div>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1788393600000" data-listing-file-modified-sort="1788433970002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="571">
-<a href="../news/posts/20260903-cic.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../assets/images/news/20260903-cic/cic-hero.png" class="thumbnail-image card-img" style="height: 220px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Real Good Research becomes a not-for-profit Community Interest Company (CIC)!
-</h5>
-<div class="card-text listing-description delink">
-Our aim has always been to pursue innovations that benefit people and the planet. We are excited to announce that we recently transformed Real Good Research into a Community…
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 3, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="bmV3cyUyQ3BhcnRuZXJzaGlwcw==" data-listing-date-sort="1783382400000" data-listing-file-modified-sort="1788433970002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="467">
-<a href="../news/posts/20260707-census-palestine.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../assets/images/news/20260707-census-palestine/census-palestine-hero.jpg" class="thumbnail-image card-img" style="height: 220px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Real Good Research joins PCBS and UNFPA to support planning for the 2027 Palestine Census
-</h5>
-<div class="card-text listing-description delink">
-<strong>Amman, Jordan, 1 July 2026</strong> - Real Good Research joined the Palestinian Central Bureau of Statistics (PCBS) and the United Nations Population Fund (UNFPA) in Amman from 29…
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 7, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="bmV3cyUyQ3Jlc2VhcmNoJTJDZGF0YQ==" data-listing-date-sort="1780444800000" data-listing-file-modified-sort="1788433970002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="947">
-<a href="../news/posts/20260603-gaza-tents.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../assets/images/news/20260603-gaza-tents/gaza-tents-hero.png" class="thumbnail-image card-img" style="height: 220px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Gaza Tents: Automated Mapping of Tent Shelters from Satellite Imagery
-</h5>
-<div class="card-text listing-description delink">
-<strong>New data just released!</strong> We are excited to share a new dataset mapping the locations of tent shelters in Gaza as of April 2026, derived from high-resolution satellite imagery…
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 3, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="bmV3cyUyQ3Jlc2VhcmNo" data-listing-date-sort="1779753600000" data-listing-file-modified-sort="1788433970002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="480">
-<a href="../news/posts/20260526-gaza-displacement-study.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../assets/images/news/20260526-gaza-displacement-study/pexels-mohamed-zarandah-217424204-12486092.jpg" class="thumbnail-image card-img" style="height: 220px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New study uses digital data to monitor unprecedented displacement in Gaza in near real time
-</h5>
-<div class="card-text listing-description delink">
-<br> A new study by Oxford researchers from the Leverhulme Centre for Demographic Science (LCDS), Edith Darin, Ridhi Kashyap, and Douglas Leasure, introduces a novel approach to…<em></em>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 26, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1770508800000" data-listing-file-modified-sort="1788433970002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="506">
-<a href="../news/posts/20260208-bayesian-statistics-primer.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../assets/images/news/20260208-bayesian-statistics-primer/pexels-photo-8197544.jpeg" class="thumbnail-image card-img" style="height: 220px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bayesian Statistics Primer
-</h5>
-<div class="card-text listing-description delink">
-<p>Intensive two-day workshops on the basics of Bayesian statistics, with open course materials available on GitHub.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Feb 8, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="bmV3cyUyQ3Jlc2VhcmNoJTJDZGF0YQ==" data-listing-date-sort="1763942400000" data-listing-file-modified-sort="1788433970002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="410">
-<a href="../news/posts/20251124-gaza-nowpop.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../assets/images/news/20251124-gaza-nowpop/pexels-photo-22608382.jpeg" class="thumbnail-image card-img" style="height: 220px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Gaza NowPop Project
-</h5>
-<div class="card-text listing-description delink">
-<p>Near real-time population nowcasting in Gaza to support the international humanitarian response.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Nov 24, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1759968000000" data-listing-file-modified-sort="1788433970002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="288">
-<a href="../news/posts/20251009-digital-gender-gaps.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../assets/images/news/20251009-digital-gender-gaps/pexels-photo-8819449.jpeg" class="thumbnail-image card-img" style="height: 220px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Digital Gender Gaps
-</h5>
-<div class="card-text listing-description delink">
-<p>Subnational measurement of the digital gender divide globally, refreshed every month.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 9, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1758931200000" data-listing-file-modified-sort="1788433970001" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="293">
-<a href="../news/posts/20250927-ukraine-nowpop-project.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../assets/images/news/20250927-ukraine-nowpop-project/ukraine-nowpop.jpg" class="thumbnail-image card-img" style="height: 220px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Ukraine NowPop Project
-</h5>
-<div class="card-text listing-description delink">
-<p>Near real-time population estimates for Ukraine that informed humanitarian planning after the large-scale invasion.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 27, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <footer class="custom-footer">
   <div>Copyright © 2025-2026 Real Good Research. All rights reserved.</div>
   <div>Real Good Research Global CIC (UK Company 17387541), 71-75 Shelton Street, Covent Garden, London, United Kingdom,
@@ -846,5 +646,5 @@ Sep 27, 2025
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

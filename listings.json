@@ -2,25 +2,27 @@
   {
     "listing": "/news/index.html",
     "items": [
-      "/news/posts/census-palestine.html",
-      "/news/posts/gaza-tents.html",
-      "/news/posts/gaza-displacement-study.html",
-      "/news/posts/bayesian-statistics-primer.html",
-      "/news/posts/gaza-nowpop.html",
-      "/news/posts/digital-gender-gaps.html",
-      "/news/posts/ukraine-nowpop-project.html"
+      "/news/posts/20260903-cic.html",
+      "/news/posts/20260707-census-palestine.html",
+      "/news/posts/20260603-gaza-tents.html",
+      "/news/posts/20260526-gaza-displacement-study.html",
+      "/news/posts/20260208-bayesian-statistics-primer.html",
+      "/news/posts/20251124-gaza-nowpop.html",
+      "/news/posts/20251009-digital-gender-gaps.html",
+      "/news/posts/20250927-ukraine-nowpop-project.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/news/posts/census-palestine.html",
-      "/news/posts/gaza-tents.html",
-      "/news/posts/gaza-displacement-study.html",
-      "/news/posts/bayesian-statistics-primer.html",
-      "/news/posts/gaza-nowpop.html",
-      "/news/posts/digital-gender-gaps.html",
-      "/news/posts/ukraine-nowpop-project.html"
+      "/news/posts/20260903-cic.html",
+      "/news/posts/20260707-census-palestine.html",
+      "/news/posts/20260603-gaza-tents.html",
+      "/news/posts/20260526-gaza-displacement-study.html",
+      "/news/posts/20260208-bayesian-statistics-primer.html",
+      "/news/posts/20251124-gaza-nowpop.html",
+      "/news/posts/20251009-digital-gender-gaps.html",
+      "/news/posts/20250927-ukraine-nowpop-project.html"
     ]
   }
 ]
