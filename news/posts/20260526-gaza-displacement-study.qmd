@@ -3,19 +3,19 @@ title: "New study uses digital data to monitor unprecedented displacement in Gaz
 author: "Edith Darin"
 date: "2026-05-26"
 categories: [news, research]
-image: "../../assets/images/news/gaza_displacement_study/pexels-mohamed-zarandah-217424204-12486092.jpg"
+image: "../../assets/images/news/20260526-gaza-displacement-study/pexels-mohamed-zarandah-217424204-12486092.jpg"
 ---
 
 <div style="text-align: center">
 <a href="https://doi.org/10.1111/padr.70064" target="_blank">
-<img src="../../assets/images/news/gaza_displacement_study/gaza_pdr.png" alt="Title page of Darin et al. Gaza Displacement Study" style="width:90%; margin:auto">
+<img src="../../assets/images/news/20260526-gaza-displacement-study/gaza_pdr.png" alt="Title page of Darin et al. Gaza Displacement Study" style="width:90%; margin:auto">
 </a></div>
 
 <br>
 A new study by Oxford researchers from the <a href="https://demography.ox.ac.uk" target="_blank">Leverhulme Centre for Demographic Science (LCDS)</a>, Edith Darin, Ridhi Kashyap, and Douglas Leasure, introduces a novel approach to tracking population movements in conflict zones, offering a near real-time view of forced displacement in the Gaza Strip. The research, published in *Population and Development Review*, leverages high-frequency digital data to provide one of the most detailed accounts of population dynamics during the first six months of the Israel–Hamas war.
 
 
-![Timeline of population displacement in Gaza during the first six months of the Israel-Hamas war](../../assets/images/news/gaza_displacement_study/padr70064-fig-0001-m.jpg)
+![Timeline of population displacement in Gaza during the first six months of the Israel-Hamas war](../../assets/images/news/20260526-gaza-displacement-study/padr70064-fig-0001-m.jpg)
 
 
 ### A Crisis Analytics Toolbox
@@ -24,13 +24,13 @@ The study presents a "crisis analytics toolbox" that combines data from Facebook
 
 The researchers estimate that at the peak of displacement, up to 70% of Gaza's population was internally displaced. When compared to other recent conflicts, the displacement in Gaza was found to be proportionally one of the largest and fastest in recent history. The study highlights that while the war in Ukraine resulted in a larger absolute number of displaced people, the displacement in Gaza was three times larger, eight times faster, and five times more sustained relative to its population size.
 
-![Comparison of the magnitude and pace of displacement across four settings](../../assets/images/news/gaza_displacement_study/padr70064-fig-0003-m.jpg)
+![Comparison of the magnitude and pace of displacement across four settings](../../assets/images/news/20260526-gaza-displacement-study/padr70064-fig-0003-m.jpg)
 
 ### Gendered Patterns and Phased Responses
 
 The research also uncovers significant gendered patterns in displacement. In the initial, more uncertain phases of the conflict, women were more likely to move before men. These patterns shifted as the conflict evolved and "safe zones" diminished, revealing how risk calculations change under growing duress.
 
-![Gendered patterns of displacement](../../assets/images/news/gaza_displacement_study/padr70064-fig-0004-m.jpg)
+![Gendered patterns of displacement](../../assets/images/news/20260526-gaza-displacement-study/padr70064-fig-0004-m.jpg)
 
 The study identifies distinct phases in population movement:
 

@@ -5,7 +5,11 @@ subtitle: "Real Good Research is a network of academic researchers and data scie
 ---
 ::: {.page-shell}
 
+## Board of Directors
+
 ::: {.team-grid}
+
+<!-- Doug --->
 
 ::: {.team-card}
 ![](assets/images/about/doug.jpg){fig-alt="Doug Leasure"}
@@ -18,10 +22,74 @@ Director & Research Data Scientist
 :::
 
 ::: {.team-bio}
-**Director of Real Good Research.** Senior Researcher and Data Scientist for the Leverhulme Centre for Demographic Science at the University of Oxford. Interested in near real-time population nowcasting methods, particularly Bayesian statistics, using a combination of digital trace data, satellite remote sensing, and survey data.
+**Director of Real Good Research.** Senior Researcher and Data Scientist for the [Leverhulme Centre for Demographic Science](https://demography.ox.ac.uk){.bold-link target="_blank" rel="noopener noreferrer"} at the University of Oxford. Interested in near real-time population nowcasting methods, particularly Bayesian statistics, using a combination of digital trace data, satellite remote sensing, and survey data.
 :::
 :::
 :::
+
+
+<!-- Claire --->
+
+::: {.team-card}
+![](assets/images/about/claire.jpg){fig-alt="Claire Dooley"}
+
+::: {.team-body}
+### Claire Dooley, DPhil
+
+::: {.team-role}
+Director & Applied Researcher in Survey Methods and Spatial Analysis
+:::
+::: {.team-bio}
+**Lecturer in Spatial Data Science** from the [Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa){.bold-link target="_blank" rel="noopener noreferrer"} at University College London. Specialising in geocomputing methods for bespoke survey sampling frames and spatial analysis to better understand the needs of marginalised and vulnerable populations.
+:::
+:::
+:::
+
+
+<!-- Edith --->
+
+::: {.team-card}
+![](assets/images/about/edith.png){fig-alt="Edith Darin"}
+
+::: {.team-body}
+### Edith Darin, MSc
+
+::: {.team-role}
+Director & Population Data Scientist
+:::
+::: {.team-bio}
+**Doctoral researcher** at the [Leverhulme Centre for Demographic Science](https://demography.ox.ac.uk){.bold-link target="_blank" rel="noopener noreferrer"}, University of Oxford. Edith is developing statistical modelling approaches to estimate forced population displacement and to fill gaps in incomplete censuses using administrative registers, mobile phone data, social media, and satellite imagery.
+:::
+:::
+:::
+
+
+
+:::
+
+## Collaborating Researchers
+
+::: {.team-grid}
+
+<!-- Wenlan --->
+
+::: {.team-card}
+![](assets/images/about/wenlan.jpg){fig-alt="Wenlan Zhang, MSc"}
+
+::: {.team-body}
+### Wenlan Zhang, MSc
+
+::: {.team-role}
+Geospatial Data Scientist
+:::
+::: {.team-bio}
+**Doctoral researcher** at the [Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa){.bold-link target="_blank" rel="noopener noreferrer"} at University College London. Wenlan is developing geospatial and machine learning approaches to understand urban populations and inequalities, with a particular focus on biases in digital urban data.
+:::
+:::
+:::
+
+
+<!-- Karim --->
 
 ::: {.team-card}
 ![](assets/images/about/karim.webp){fig-alt="Karim Alaa El-Din"}
@@ -38,6 +106,8 @@ Computer Vision Engineer
 :::
 :::
 
+
+<!-- Jess --->
 
 ::: {.team-card}
 ![](assets/images/about/jess.webp){fig-alt="Jessica Rapson"}
@@ -56,36 +126,8 @@ Machine Learning & Public Policy Researcher
 :::
 
 
-::: {.team-card}
-![](assets/images/about/edith.png){fig-alt="Edith Darin"}
 
-::: {.team-body}
-### Edith Darin, MSc
-
-::: {.team-role}
-Population Data Scientist
-:::
-::: {.team-bio}
-**Doctoral researcher at the [Leverhulme Centre for Demographic Science, University of Oxford](https://demography.ox.ac.uk){.bold-link target="_blank" rel="noopener noreferrer"}** developing statistical modelling approaches to estimate forced population displacement and to fill gaps in incomplete censuses using administrative registers, mobile phone data, social media, and satellite imagery.
-:::
-:::
-:::
-
-
-::: {.team-card}
-![](assets/images/about/claire.jpg){fig-alt="Claire Dooley"}
-
-::: {.team-body}
-### Claire Dooley, DPhil
-
-::: {.team-role}
-Applied Researcher in Survey Methods and Spatial Analysis
-:::
-::: {.team-bio}
-**Lecturer in Spatial Data Science from the [Centre for Advanced Spatial Analysis at University College London](https://www.ucl.ac.uk/bartlett/casa){.bold-link target="_blank" rel="noopener noreferrer"}.** Specialising in geocomputing methods for bespoke survey sampling frames and spatial analysis to better understand the needs of marginalised and vulnerable populations.
-:::
-:::
-:::
+<!-- Maksym --->
 
 ::: {.team-card}
 ![](assets/images/about/maksym.jpeg){fig-alt="Maksym Bondarenko"}
@@ -102,6 +144,9 @@ Spatial Data Engineer and Software/Web Developer
 :::
 :::
 
+
+<!-- Gianluca --->
+
 ::: {.team-card}
 ![](assets/images/about/gianluca.webp){fig-alt="Gianluca Boo"}
 
@@ -116,6 +161,9 @@ Data Scientist and Graphical Designer
 :::
 :::
 :::
+
+
+<!-- David --->
 
 ::: {.team-card}
 ![](assets/images/about/david.jpg){fig-alt="David Kerr"}

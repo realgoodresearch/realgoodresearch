@@ -4,7 +4,7 @@ subtitle: "A bespoke machine learning model to efficiently monitor the prolifera
 author: "Doug Leasure"
 date: "2026-06-03"
 categories: [news, research, data]
-image: "../../assets/images/news/gaza_tents/gaza-tents-hero.png"
+image: "../../assets/images/news/20260603-gaza-tents/gaza-tents-hero.png"
 ---
 
 **New data just released!** We are excited to share a new dataset mapping the locations of tent shelters in Gaza as of April 2026, derived from high-resolution satellite imagery from Planet Labs using a bespoke machine learning algorithm that we developed specifically for this context. 
@@ -25,7 +25,7 @@ data_dir <- file.path(
   "assets",
   "images",
   "news",
-  "gaza_tents"
+  "20260603-gaza-tents"
 )
 img_a <- file.path(
   data_dir,

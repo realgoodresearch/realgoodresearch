@@ -4,7 +4,7 @@ subtitle: "Up-to-date population estimation using privacy-preserving telecommuni
 date: 2025-11-24
 description: "Near real-time population nowcasting in Gaza to support the international humanitarian response."
 categories: [news, research, data]
-image: "../../assets/images/news/pexels-photo-22608382.jpeg"
+image: "../../assets/images/news/20251124-gaza-nowpop/pexels-photo-22608382.jpeg"
 ---
 
 
@@ -14,7 +14,7 @@ image: "../../assets/images/news/pexels-photo-22608382.jpeg"
 **Source Code:** <a href="https://github.com/realgoodresearch/GazaNowPop" target="_blank">https://github.com/realgoodresearch/GazaNowPop</a>
 
 
-<img src="../../assets/images/news/pexels-photo-22608382.jpeg" alt="Gaza NowPop Project hero image" class="post-hero-image" style="width: 80%; height: auto"/>
+<img src="../../assets/images/news/20251124-gaza-nowpop/pexels-photo-22608382.jpeg" alt="Gaza NowPop Project hero image" class="post-hero-image" style="width: 80%; height: auto"/>
 
 We started the Gaza NowPop Project on 7 October 2023 immediately following the Israeli incursion into the Gaza Strip. We extended methods that we originally developed for the [Ukraine NowPop Project](ukraine-nowpop-project.qmd) ([Leasure et al. 2023](https://doi.org/10.1111/padr.12558)) by repurposing targeted advertising data from Meta for population nowcasting in near real-time. We provided these estimates to the United Nations humanitarian response through our participation in the interagency Assessment and Information Management Working Group for the humanitarian response in the occupied Palestinian territories.
 
