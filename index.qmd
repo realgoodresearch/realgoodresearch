@@ -28,6 +28,7 @@ listing:
 </div>
 </div>
 </div>
+<div id="home-data-announcements" class="home-data-announcements" aria-live="polite" hidden></div>
 
 ::: {.home-band .home-band-plain}
 ::: {.home-split}
@@ -47,6 +48,7 @@ We focus on **population estimation in data scarce contexts** because this provi
 :::
 
 <script src="assets/js/home-carousel.js"></script>
+<script src="assets/js/home-data-announcements.js"></script>
 
 ::: {.home-band .home-band-blue}
 ::: {.home-split .home-split-reverse}
