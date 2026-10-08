@@ -1,6 +1,7 @@
 ---
 title: "Meet the Team"
 pagetitle: "Team"
+body-classes: team-page
 subtitle: "Real Good Research is a network of academic researchers and data scientists, and we want to put our skills into action to solve real-world problems."
 ---
 ::: {.page-shell}
@@ -18,11 +19,11 @@ subtitle: "Real Good Research is a network of academic researchers and data scie
 ### Doug Leasure, PhD
 
 ::: {.team-role}
-Director & Research Data Scientist
+Executive Director & Research Data Scientist
 :::
 
 ::: {.team-bio}
-**Director of Real Good Research.** Senior Researcher and Data Scientist for the [Leverhulme Centre for Demographic Science](https://demography.ox.ac.uk){.bold-link target="_blank" rel="noopener noreferrer"} at the University of Oxford. Interested in near real-time population nowcasting methods, particularly Bayesian statistics, using a combination of digital trace data, satellite remote sensing, and survey data.
+Founding Director of Real Good Research. Develops population nowcasting methods to support humanitarian response, sustainable development, and conservation. Previously at [Oxford’s Leverhulme Centre for Demographic Science](https://demography.ox.ac.uk){.bold-link target="_blank" rel="noopener noreferrer"}, [WorldPop](https://worldpop.org){.bold-link target="_blank" rel="noopener noreferrer"}, and the [River Basin Center](https://rivercenter.uga.org){.bold-link target="_blank" rel="noopener noreferrer"}.
 :::
 :::
 :::
@@ -40,7 +41,7 @@ Director & Research Data Scientist
 Director & Applied Researcher in Survey Methods and Spatial Analysis
 :::
 ::: {.team-bio}
-**Lecturer in Spatial Data Science** from the [Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa){.bold-link target="_blank" rel="noopener noreferrer"} at University College London. Specialising in geocomputing methods for bespoke survey sampling frames and spatial analysis to better understand the needs of marginalised and vulnerable populations.
+Lecturer in Spatial Data Science at [UCL’s Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa){.bold-link target="_blank" rel="noopener noreferrer"}. Uses survey methods and spatial analysis to understand the needs of marginalised populations.
 :::
 :::
 :::
@@ -52,22 +53,55 @@ Director & Applied Researcher in Survey Methods and Spatial Analysis
 ![](assets/images/about/edith.png){fig-alt="Edith Darin"}
 
 ::: {.team-body}
-### Edith Darin, MSc
+### Edith Darin, DPhil
 
 ::: {.team-role}
 Director & Population Data Scientist
 :::
 ::: {.team-bio}
-**Doctoral researcher** at the [Leverhulme Centre for Demographic Science](https://demography.ox.ac.uk){.bold-link target="_blank" rel="noopener noreferrer"}, University of Oxford. Edith is developing statistical modelling approaches to estimate forced population displacement and to fill gaps in incomplete censuses using administrative registers, mobile phone data, social media, and satellite imagery.
+Researcher at [Oxford’s Leverhulme Centre for Demographic Science](https://demography.ox.ac.uk){.bold-link target="_blank" rel="noopener noreferrer"}. Develops statistical methods to estimate forced displacement and fill gaps in population censuses.
+:::
+:::
+:::
+
+<!-- Ridhi --->
+
+::: {.team-card}
+![](assets/images/about/ridhi.jpg){fig-alt="Ridhi Kashyap"}
+
+::: {.team-body}
+### Prof. Ridhi Kashyap
+
+::: {.team-role}
+Director & Computational Social Scientist
+:::
+::: {.team-bio}
+Professor of Demography and Computational Social Science at Oxford. Studies population dynamics, human development, and gender inequality.
+:::
+:::
+:::
+
+<!-- Seth --->
+
+::: {.team-card}
+![](assets/images/about/seth.jpg){fig-alt="Seth Wenger"}
+
+::: {.team-body}
+### Prof. Seth Wenger
+
+::: {.team-role}
+Director & Applied Freshwater Ecologist
+:::
+::: {.team-bio}
+Professor at [UGA’s Odum School of Ecology](https://ecology.uga.edu/){.bold-link target="_blank" rel="noopener noreferrer"} and Director of Science at its [River Basin Center](https://rivercenter.uga.edu){.bold-link target="_blank" rel="noopener noreferrer"}. Connects freshwater research with natural resource management and conservation policy.
 :::
 :::
 :::
 
 
-
 :::
 
-## Collaborating Researchers
+## Collaborating Researchers {.team-collaborators-heading}
 
 ::: {.team-grid}
 
@@ -83,7 +117,7 @@ Director & Population Data Scientist
 Geospatial Data Scientist
 :::
 ::: {.team-bio}
-**Doctoral researcher** at the [Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa){.bold-link target="_blank" rel="noopener noreferrer"} at University College London. Wenlan is developing geospatial and machine learning approaches to understand urban populations and inequalities, with a particular focus on biases in digital urban data.
+Doctoral researcher at [UCL’s Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa){.bold-link target="_blank" rel="noopener noreferrer"}. Uses geospatial methods and machine learning to study urban populations and inequalities.
 :::
 :::
 :::
@@ -101,7 +135,7 @@ Geospatial Data Scientist
 Computer Vision Engineer
 :::
 ::: {.team-bio}
-**Director of Eden Technology Limited.** Karim is currently working on his PhD in computational quantum physics at the University of Oxford and contributes satellite image analysis for tent identification and population estimation.
+Director of Eden Technology Limited and PhD researcher at Oxford. Contributes satellite image analysis for tent identification and population estimation.
 :::
 :::
 :::
@@ -120,7 +154,7 @@ Machine Learning & Public Policy Researcher
 :::
 
 ::: {.team-bio}
-**Executive Director of the [Algorithmic Governance Foundation](https://algorithmicgovernance.org){.bold-link target="_blank" rel="noopener noreferrer"}**. Jessica is a machine learning researcher at the University of Oxford with a background in both machine learning and public policy, focusing on applications of AI and automations for public-serving organisations.
+Executive Director of the [Algorithmic Governance Foundation](https://algorithmicgovernance.org){.bold-link target="_blank" rel="noopener noreferrer"}. Works at the intersection of machine learning and public policy.
 :::
 :::
 :::
@@ -139,7 +173,7 @@ Machine Learning & Public Policy Researcher
 Spatial Data Engineer and Software/Web Developer
 :::
 ::: {.team-bio}
-**Leader of the Spatial Data Infrastructure Team for [WorldPop at the University of Southampton](https://worldpop.org){.bold-link target="_blank" rel="noopener noreferrer"}**. Focused on computational architecture for high-resolution population datasets and the development of interactive data dashboards and data repositories.
+Leads the Spatial Data Infrastructure Team at [WorldPop, University of Southampton](https://worldpop.org){.bold-link target="_blank" rel="noopener noreferrer"}. Builds computational systems for population datasets, dashboards, and data repositories.
 :::
 :::
 :::
@@ -157,7 +191,7 @@ Spatial Data Engineer and Software/Web Developer
 Data Scientist and Graphical Designer
 :::
 ::: {.team-bio}
-**Quantitative Research Leader at [RAND Europe](https://www.rand.org/randeurope.html){.bold-link target="_blank" rel="noopener noreferrer"}** with a background in end-to-end data science, bespoke datasets, advanced visualisation, demography, epidemiology, forensics, and urban planning.
+Quantitative Research Leader at [RAND Europe](https://www.rand.org/randeurope.html){.bold-link target="_blank" rel="noopener noreferrer"}. Brings expertise in data science, visualisation, demography, and urban planning.
 :::
 :::
 :::
@@ -175,9 +209,17 @@ Data Scientist and Graphical Designer
 Database Engineer and Back-end Web Developer
 :::
 ::: {.team-bio}
-Senior Back-end Engineer at [MapMortar](https://www.mapmortar.io/){.bold-link target="_blank" rel="noopener noreferrer"} and Director of [GISRede](https://gisrede.com){.bold-link target="_blank" rel="noopener noreferrer"}. Previously worked as a geospatial data scientist on WorldPop’s Spatial Data Infrastructure team and contributes innovative data dashboards and GIS insights for academic research.
+Senior Back-end Engineer at [MapMortar](https://www.mapmortar.io/){.bold-link target="_blank" rel="noopener noreferrer"} and Director of [GISRede](https://gisrede.com){.bold-link target="_blank" rel="noopener noreferrer"}. Contributes data dashboards and GIS insights for academic research.
 :::
 :::
 :::
 :::
+:::
+
+::: {.team-contact}
+## Interested in working with us?
+
+Reach out with ideas and opportunities to do good things for people and the planet.
+
+[Get in touch →](contact.qmd)
 :::

@@ -10,17 +10,17 @@ pagetitle: "Research"
 
 <!-- Gaza displacement study PDR -->
 ::: {.project-card .research-paper}
-<img src="assets/images/news/gaza_displacement_study/pexels-mohamed-zarandah-217424204-12486092.jpg" alt="Gaza displacement study figure" style="object-position: 70% 50%;">
+<img src="assets/images/news/20260526-gaza-displacement-study/pexels-mohamed-zarandah-217424204-12486092.jpg" alt="Gaza displacement study figure" style="object-position: 70% 50%;">
 
 ::: {.project-body}
 ### New study uses digital data to monitor unprecedented displacement in Gaza in near real time
 A new study by Oxford researchers from the Leverhulme Centre for Demographic Science (LCDS), Edith Darin, Ridhi Kashyap, and Douglas Leasure, introduces a novel approach to tracking population movements in conflict zones, offering a near real-time view of forced displacement in the Gaza Strip. The research, published in *Population and Development Review*, leverages high-frequency digital data to provide one of the most detailed accounts of population dynamics during the first six months of the Israel–Hamas war.
 
 ::: {.research-citation}
-Darin, E., Kashyap, R., & Leasure, D. R. (2026). Leveraging High-Frequency Digital Data to Analyze Forced Displacement Dynamics: A Case Study from the Gaza Strip. *Population and Development Review*. https://doi.org/10.1111/padr.70064
+Darin, E., Kashyap, R., & Leasure, D. R. (2026). Leveraging High-Frequency Digital Data to Analyze Forced Displacement Dynamics: A Case Study from the Gaza Strip. *Population and Development Review*. doi:10.1111/padr.70064
 :::
 
-[Read the paper](https://doi.org/10.1111/padr.70064){.button-secondary target="_blank"}
+[Read the paper](https://doi.org/10.1111/padr.70064){.research-paper-link target="_blank" rel="noopener noreferrer"}
 :::
 :::
 
@@ -37,7 +37,7 @@ In collaboration with the UN International Organization for Migration (IOM), thi
 Leasure DR, Kashyap R, Rampazzo F, Dooley CA, Elbers B, Bondarenko M, et al. 2023. *Population and Development Review*, 49:231-254. doi:10.1111/padr.12558
 :::
 
-[Check out the paper](https://doi.org/10.1111/padr.12558){.button-secondary target="_blank"}
+[Read the paper](https://doi.org/10.1111/padr.12558){.research-paper-link target="_blank" rel="noopener noreferrer"}
 :::
 :::
 
@@ -53,7 +53,7 @@ By linking household surveys to high-resolution building footprints derived from
 Boo G, Darin E, Leasure DR, Dooley CA, Chamberlain HR, et al. 2022. *Nature Communications*, 13(1):1330. doi:10.1038/s41467-022-29094-x
 :::
 
-[Learn all about it](https://doi.org/10.1038/s41467-022-29094-x){.button-secondary target="_blank"}
+[Read the paper](https://doi.org/10.1038/s41467-022-29094-x){.research-paper-link target="_blank" rel="noopener noreferrer"}
 :::
 :::
 
@@ -70,7 +70,7 @@ Working with DANE, we developed a method linking satellite remote sensing of bui
 Sanchez-Cespedes LM, Leasure DR, Tejedor-Garavito N, et al. 2024. *Population Studies*, 78(1):3-20. doi:10.1080/00324728.2023.2190151
 :::
 
-[Learn how it's done](https://doi.org/10.1080/00324728.2023.2190151){.button-secondary target="_blank"}
+[Read the paper](https://doi.org/10.1080/00324728.2023.2190151){.research-paper-link target="_blank" rel="noopener noreferrer"}
 :::
 :::
 
@@ -87,7 +87,7 @@ This paper developed a Bayesian statistical method to provide up-to-date populat
 Leasure DR, Jochem WC, Weber EM, Seaman V, Tatem AJ. 2020. *Proceedings of the National Academy of Sciences*, 117(39):24173-24179. doi:10.1073/pnas.1913050117
 :::
 
-[Read more](https://doi.org/10.1073/pnas.1913050117){.button-secondary target="_blank"}
+[Read the paper](https://doi.org/10.1073/pnas.1913050117){.research-paper-link target="_blank" rel="noopener noreferrer"}
 :::
 :::
 
@@ -102,7 +102,7 @@ This paper introduced a method to identify and map settlement types from buildin
 Jochem WC, Leasure DR, Pannell O, Chamberlain HR, Jones P, Tatem AJ. 2021. *Environment and Planning B*, 48(5):1161-1179. doi:10.1177/2399808320921208
 :::
 
-[Peruse the paper](https://doi.org/10.1177/2399808320921208){.button-secondary target="_blank"}
+[Read the paper](https://doi.org/10.1177/2399808320921208){.research-paper-link target="_blank" rel="noopener noreferrer"}
 :::
 :::
 
@@ -118,7 +118,7 @@ This paper developed a Bayesian population forecasting approach using remotely-s
 Leasure DR, Wenger SJ, Chelgren ND, et al. 2019. *Ecology*, 100(1):e02538. doi:10.1002/ecy.2538
 :::
 
-[Dive into the details](https://doi.org/10.1002/ecy.2538){.button-secondary target="_blank"}
+[Read the paper](https://doi.org/10.1002/ecy.2538){.research-paper-link target="_blank" rel="noopener noreferrer"}
 :::
 :::
 :::
