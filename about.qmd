@@ -16,7 +16,7 @@ subtitle: "Real Good Research is a network of academic researchers and data scie
 ![](assets/images/about/doug.jpg){fig-alt="Doug Leasure"}
 
 ::: {.team-body}
-### Doug Leasure, PhD
+### Doug Leasure
 
 ::: {.team-role}
 Executive Director & Research Data Scientist
@@ -35,7 +35,7 @@ Founding Director of Real Good Research. Develops population nowcasting methods 
 ![](assets/images/about/claire.jpg){fig-alt="Claire Dooley"}
 
 ::: {.team-body}
-### Claire Dooley, DPhil
+### Claire Dooley
 
 ::: {.team-role}
 Director & Applied Researcher in Survey Methods and Spatial Analysis
@@ -53,7 +53,7 @@ Lecturer in Spatial Data Science at [UCL’s Centre for Advanced Spatial Analysi
 ![](assets/images/about/edith.png){fig-alt="Edith Darin"}
 
 ::: {.team-body}
-### Edith Darin, DPhil
+### Edith Darin
 
 ::: {.team-role}
 Director & Population Data Scientist
@@ -70,7 +70,7 @@ Researcher at [Oxford’s Leverhulme Centre for Demographic Science](https://dem
 ![](assets/images/about/ridhi.jpg){fig-alt="Ridhi Kashyap"}
 
 ::: {.team-body}
-### Prof. Ridhi Kashyap
+### Ridhi Kashyap
 
 ::: {.team-role}
 Director & Computational Social Scientist
@@ -87,7 +87,7 @@ Professor of Demography and Computational Social Science at Oxford. Studies popu
 ![](assets/images/about/seth.jpg){fig-alt="Seth Wenger"}
 
 ::: {.team-body}
-### Prof. Seth Wenger
+### Seth Wenger
 
 ::: {.team-role}
 Director & Applied Freshwater Ecologist
@@ -111,31 +111,13 @@ Professor at [UGA’s Odum School of Ecology](https://ecology.uga.edu/){.bold-li
 ![](assets/images/about/wenlan.jpg){fig-alt="Wenlan Zhang, MSc"}
 
 ::: {.team-body}
-### Wenlan Zhang, MSc
+### Wenlan Zhang
 
 ::: {.team-role}
 Geospatial Data Scientist
 :::
 ::: {.team-bio}
 Doctoral researcher at [UCL’s Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa){.bold-link target="_blank" rel="noopener noreferrer"}. Uses geospatial methods and machine learning to study urban populations and inequalities.
-:::
-:::
-:::
-
-
-<!-- Karim --->
-
-::: {.team-card}
-![](assets/images/about/karim.webp){fig-alt="Karim Alaa El-Din"}
-
-::: {.team-body}
-### Karim Alaa El-Din, MSci
-
-::: {.team-role}
-Computer Vision Engineer
-:::
-::: {.team-bio}
-Director of Eden Technology Limited and PhD researcher at Oxford. Contributes satellite image analysis for tent identification and population estimation.
 :::
 :::
 :::
@@ -160,6 +142,42 @@ Executive Director of the [Algorithmic Governance Foundation](https://algorithmi
 :::
 
 
+<!-- Karim --->
+
+::: {.team-card}
+![](assets/images/about/karim.webp){fig-alt="Karim Alaa El-Din"}
+
+::: {.team-body}
+### Karim Alaa El-Din
+
+::: {.team-role}
+Computer Vision Engineer
+:::
+::: {.team-bio}
+Director of Eden Technology Limited and PhD researcher at Oxford. Contributes satellite image analysis for tent identification and population estimation.
+:::
+:::
+:::
+
+
+<!-- Khaled --->
+
+::: {.team-card}
+![](assets/images/about/khaled.jpeg){fig-alt="Khaled Moselmany"}
+
+::: {.team-body}
+### Khaled Mosalmany
+
+::: {.team-role}
+Data Engineer
+:::
+
+::: {.team-bio}
+Data engineer at the [i2sc](https://www.i2sc.net/){.bold-link target="_blank" rel="noopener noreferrer"} and [SOUNDS](https://www.uni-saarland.de/en/researchers/sounds/about-sounds.html){.bold-link target="_blank" rel="noopener noreferrer"}. A machine learning specialist working to identify tents in informal settlements from publicly-available medium-resolution satellite imagery.
+:::
+:::
+:::
+
 
 <!-- Maksym --->
 
@@ -167,7 +185,7 @@ Executive Director of the [Algorithmic Governance Foundation](https://algorithmi
 ![](assets/images/about/maksym.jpeg){fig-alt="Maksym Bondarenko"}
 
 ::: {.team-body}
-### Maksym Bondarenko, PhD
+### Maksym Bondarenko
 
 ::: {.team-role}
 Spatial Data Engineer and Software/Web Developer
@@ -185,7 +203,7 @@ Leads the Spatial Data Infrastructure Team at [WorldPop, University of Southampt
 ![](assets/images/about/gianluca.webp){fig-alt="Gianluca Boo"}
 
 ::: {.team-body}
-### Gianluca Boo, PhD
+### Gianluca Boo
 
 ::: {.team-role}
 Data Scientist and Graphical Designer
@@ -203,7 +221,7 @@ Quantitative Research Leader at [RAND Europe](https://www.rand.org/randeurope.ht
 ![](assets/images/about/david.jpg){fig-alt="David Kerr"}
 
 ::: {.team-body}
-### David Kerr, MSc
+### David Kerr
 
 ::: {.team-role}
 Database Engineer and Back-end Web Developer
