@@ -19,6 +19,6 @@ Our estimates served as a triangulation data source alongside IOM estimates of i
 
 We continued to provide near real-time population estimates for Ukraine for well over a year, and this work led to a partnership with the World Health Organization who supported a long-term research project hosted at the Leverhulme Centre for Demographic Science at the University of Oxford to further explore how digital trace data can be used for population nowcasting in Ukraine.
 
-We published our bespoke method in [Population and Development Review](https://onlinelibrary.wiley.com/doi/10.1111/padr.12558). This approach has since been transferred to similar work on our [Gaza NowPop Project](gaza-nowpop.qmd), and new research at the University of Liverpool is extending the method for mobile phone GPS data ([Iradukunda et al. 2025](https://doi.org/10.48550/arXiv.2504.00003)).
+We published our bespoke method in [Population and Development Review](https://onlinelibrary.wiley.com/doi/10.1111/padr.12558). This approach has since been transferred to similar work on our [Gaza NowPop Project](20251124-gaza-nowpop.qmd), and new research at the University of Liverpool is extending the method for mobile phone GPS data ([Iradukunda et al. 2025](https://doi.org/10.48550/arXiv.2504.00003)).
 
 :::
