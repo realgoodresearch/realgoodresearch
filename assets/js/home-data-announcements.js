@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const announcement = document.querySelector("#home-data-announcements");
   if (!announcement) return;
 
-  const cutoff = Date.now() - 60 * 24 * 60 * 60 * 1000;
+  const cutoff = Date.now() - 30 * 24 * 60 * 60 * 1000;
 
   fetch("https://data.realgoodresearch.com/api/v1/collections", {
     headers: { Accept: "application/json" },
