@@ -12,7 +12,7 @@ subtitle: "We'd love to hear from you!"
 ### Email
 
 ::: {.contact-copy}
-Reach out directly at [info@realgoodresearch.com](mailto:info@realgoodresearch.com) to discuss a project, course, collaboration, or idea.
+Reach out directly at [contact@realgoodresearch.com](mailto:contact@realgoodresearch.com) to discuss a project, course, collaboration, or idea.
 :::
 :::
 
