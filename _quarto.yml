@@ -10,7 +10,7 @@ website:
   search: true
   navbar:
     title: false
-    logo: assets/images/logo/real-good-research-white-logo-square-transparent.png
+    logo: assets/images/logo/real-good-research-logo-transparent-white.png
     background: black
     type: dark
     border: true
